@@ -2,23 +2,26 @@ name: "ml4e"
 output_dir: "docs"
 
 navbar:
-  title: "ml4e @ HUJI"
+  title: "#ml4e_huji"
   type: inverse
   left:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "About"
-      icon: fa-info
+    - text: "People"
+      icon: fa-chalkboard-teacher
       href: about.html
+    - text: "Lectures"
+      href: lectures.html
   right:
-    - text: "GitHub"
-      icon: fa-github
-      href: https://github.com/icaspi99/ml4e/
     - icon: fa-home
-      href: http://www.itamarcaspi.net/
-    - icon: fa-question fa-lg
-      href: https://example.com
+      href: https://icaspi99.github.io/ml4e/
+    - icon: fa-github
+      href: https://github.com/icaspi99/ml4e/
+    - icon: fa-question
+      href: https://piazza.com/huji.ac.il/spring2019/57750/home
+    - icon: fa-comments
+      href: http://www.admonymous.com/ml4e_huji
 output:
   html_document:
     theme: united

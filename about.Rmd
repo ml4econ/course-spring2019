@@ -1,3 +1,19 @@
 ---
-title: "About This Website"
+title: "People"
 ---
+
+## Instructors
+
+Itamar Caspi ([caspi.itamar@gmail.com](mailto:caspi.itamar@gmail.com)) <br>
+Ariel Mansura ([ariel.mansura@boi.org.il](mailto:ariel.mansura@boi.org.il))
+
+## Teaching Assistants:
+
+TBA
+
+## Guest lecturers
+
+
+## Office Hours
+
+By appointment
