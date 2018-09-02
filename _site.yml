@@ -1,0 +1,27 @@
+name: "ml4e"
+output_dir: "docs"
+
+navbar:
+  title: "Machine learning for economists @ HUJI"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-info
+      href: about.html
+  right:
+    - icon: fa-github
+      href: https://github.com/icaspi99/ml4e/
+    - icon: fa-home
+      href: http://www.itamarcaspi.net/
+    - icon: fa-question fa-lg
+      href: https://example.com
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
