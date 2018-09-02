@@ -2,7 +2,7 @@ name: "ml4e"
 output_dir: "docs"
 
 navbar:
-  title: "Machine learning for economists @ HUJI"
+  title: "Machine learning for economists course @ HUJI"
   type: inverse
   left:
     - text: "Home"
