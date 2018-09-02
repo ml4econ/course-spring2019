@@ -2,7 +2,7 @@ name: "ml4e"
 output_dir: "docs"
 
 navbar:
-  title: "Machine learning for economists @ HUJI"
+  title: "ml4e @ HUJI"
   type: inverse
   left:
     - text: "Home"
@@ -12,7 +12,8 @@ navbar:
       icon: fa-info
       href: about.html
   right:
-    - icon: fa-github
+    - text: "GitHub"
+      icon: fa-github
       href: https://github.com/icaspi99/ml4e/
     - icon: fa-home
       href: http://www.itamarcaspi.net/
@@ -20,7 +21,7 @@ navbar:
       href: https://example.com
 output:
   html_document:
-    theme: cosmo
+    theme: united
     highlight: textmate
     include:
       after_body: footer.html

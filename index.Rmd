@@ -1,3 +1,65 @@
 ---
-title: "My Website"
+title: "Machine Learning for Economists - 57750"
 ---
+
+## Course summary
+
+The course will cover topics that range between machine learning (ML) and econometrics. In particular, we will discuss concepts from the world of ML that can potentially contribute to empirical economics. The course will cover leading machine learning (supervised and unsupervised) methods, with an emphasis on the challenges and opportunities of integrating these methods in empirical economics, and the relevance of ML to policy analysis and causal inference. The various topics are illustrated through applications, reading empirical articles, and doing applied work.
+
+
+## Computing
+
+All computing in class will be conducted in R.
+The focus of the class will be on teaching Machine Learning concepts rather than how to use R.
+
+
+## Textbooks
+
+There are no required textbooks. All materials notes will be available on the class website. 
+
+_Optional textbooks:_ Books below do not cover all the material we plan to cover in the class.
+We list both technical books and business related books.
+
+[**An Introduction to Statistical Learning with Applications in R**](http://www-bcf.usc.edu/~gareth/ISL) <br>
+*Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani* <br>
+This book provides a great introduction to Machine Learning.
+Concepts are well explained, without too much technical details. <br/>
+_PDF available online_
+
+[**Elements of Statistical Learning**](http://statweb.stanford.edu/~tibs/ElemStatLearn) <br>
+*Trevor Hastie, Robert Tibshirani and Jerome Friedman* <br/>
+This book covers similar material to the one above, however, it provides more technical material. <br>
+_PDF available online_
+
+[**Machine Learning: a Probabilistic Perspective**](http://www.cs.ubc.ca/~murphyk/MLbook) <br>
+*Kevin Murphy* <br>
+PhD-level book, providing a encyclopedic survey of the area.
+
+The following three books are very light on technical details,
+but do talk about applying Machine Learning in the context of business applications.
+
+[**Data Science for Business**](http://data-science-for-biz.com) <br>
+*Foster Provost and Tom Fawcett* <br>
+
+[**Predictive analytics**](http://www.wiley.com/WileyCDA/WileyTitle/productCd-1118416856.html) <br>
+*Eric Siegel*
+
+[**Big Data, Data Mining, and Machine Learning: Value Creation for Business Leaders and Practitioners**](http://www.amazon.com/gp/product/1502462915) <br>
+*Jared Dean*
+
+Optional references on R. [Here](Computing) are additional resources.
+
+[**R in a Nutshell**](http://shop.oreilly.com/product/0636920022008.do) <br>
+*Joseph Adler*
+
+[**A Beginner's Guide to R**](http://www.amazon.com/Beginners-Guide-Use-Alain-Zuur/dp/0387938362) <br>
+*Alain Zuur, Elena N. Ieno, Erik Meesters*
+
+
+## Grading
+
+Homework assignments: **20%**; Final exam: **40%**; Final project: **40%**
+
+
+## Feedback
+
