@@ -15,14 +15,11 @@ The focus of the class will be on teaching Machine Learning concepts rather than
 
 ## Textbooks
 
-There are no required textbooks. All materials notes will be available on the class website. 
-
-_Optional textbooks:_ Books below do not cover all the material we plan to cover in the class.
-We list both technical books and business related books.
+There are no required textbooks. All materials notes will be available on the class website. The following books may be useful references, however, note that they do not cover all the material we plan to cover in the class.
 
 [**An Introduction to Statistical Learning with Applications in R**](http://www-bcf.usc.edu/~gareth/ISL) <br>
 *Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani* <br>
-This book provides a great introduction to Machine Learning.
+This book provides a hands-on introduction to Machine Learning.
 Concepts are well explained, without too much technical details. <br/>
 _PDF available online_
 
@@ -31,17 +28,28 @@ _PDF available online_
 This book covers similar material to the one above, however, it provides more technical material. <br>
 _PDF available online_
 
-The following three books are very light on technical details,
-but do talk about applying Machine Learning in the context of business applications.
 
-[**Data Science for Business**](http://data-science-for-biz.com) <br>
-*Foster Provost and Tom Fawcett* <br>
+The following three books provide undergrad and graduate level treatment of causal inference in social sciences
+
+[**Mostly Harmless Econometrics**](http://www.mostlyharmlesseconometrics.com/) <br/>
+*Joshua D. Angrist and Jorn-Steffen Pischke*
+
+
+[**Causal Inference for Statistics, Social, and Biomedical Sciences**](https://doi.org/10.1017/CBO9781139025751) <br/>
+*Guido W. Imbens and Donald B. Rubin*
 
 
 ## Grading
 
 Homework assignments: **20%**; Final exam: **40%**; Final project: **40%**
 
+## Discussions
+
+[Piazza discussion forum](https://piazza.com/huji.ac.il/spring2019/57750/home) (private) and #ml4e_huji on twitter (public).
+
 
 ## Feedback
 
+Your feedback is important! Please feel free to share with us
+your comments, concerns and suggestions on the course in
+person, email or anonymously [here](http://www.admonymous.com/ml4e_huji).

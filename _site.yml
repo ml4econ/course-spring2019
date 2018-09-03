@@ -6,13 +6,15 @@ navbar:
   type: inverse
   left:
     - text: "Home"
-      icon: fa-home
       href: index.html
     - text: "People"
-      icon: fa-chalkboard-teacher
       href: about.html
     - text: "Lectures"
       href: lectures.html
+    - text: "Datacamp"
+      href: datacamp.html
+    - text: "Kaggle"
+      href: Kaggle.html
   right:
     - icon: fa-home
       href: https://icaspi99.github.io/ml4e/
@@ -24,8 +26,10 @@ navbar:
       href: http://www.admonymous.com/ml4e_huji
 output:
   html_document:
-    theme: united
-    highlight: textmate
+    toc: true
+    toc_float: true
+    theme: journal
+    highlight: zenburn
     include:
       after_body: footer.html
     css: styles.css

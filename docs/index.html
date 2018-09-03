@@ -15,32 +15,18 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
 <script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
 <script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
 
 
 
@@ -106,34 +92,34 @@ button.code-folding-btn:focus {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 61px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 66px;
+  margin-top: -66px;
 }
 </style>
 
@@ -170,6 +156,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
@@ -185,21 +266,19 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">
-    <span class="fa fa-home"></span>
-     
-    Home
-  </a>
+  <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="about.html">
-    <span class="fa fa-chalkboard-teacher"></span>
-     
-    People
-  </a>
+  <a href="about.html">People</a>
 </li>
 <li>
   <a href="lectures.html">Lectures</a>
+</li>
+<li>
+  <a href="datacamp.html">Datacamp</a>
+</li>
+<li>
+  <a href="Kaggle.html">Kaggle</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -251,24 +330,31 @@ $(document).ready(function () {
 </div>
 <div id="textbooks" class="section level2">
 <h2>Textbooks</h2>
-<p>There are no required textbooks. All materials notes will be available on the class website.</p>
-<p><em>Optional textbooks:</em> Books below do not cover all the material we plan to cover in the class. We list both technical books and business related books.</p>
+<p>There are no required textbooks. All materials notes will be available on the class website. The following books may be useful references, however, note that they do not cover all the material we plan to cover in the class.</p>
 <p><a href="http://www-bcf.usc.edu/~gareth/ISL"><strong>An Introduction to Statistical Learning with Applications in R</strong></a> <br> <em>Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani</em> <br> This book provides a great introduction to Machine Learning. Concepts are well explained, without too much technical details. <br/> <em>PDF available online</em></p>
 <p><a href="http://statweb.stanford.edu/~tibs/ElemStatLearn"><strong>Elements of Statistical Learning</strong></a> <br> <em>Trevor Hastie, Robert Tibshirani and Jerome Friedman</em> <br/> This book covers similar material to the one above, however, it provides more technical material. <br> <em>PDF available online</em></p>
-<p>The following three books are very light on technical details, but do talk about applying Machine Learning in the context of business applications.</p>
-<p><a href="http://data-science-for-biz.com"><strong>Data Science for Business</strong></a> <br> <em>Foster Provost and Tom Fawcett</em> <br></p>
+<p>The following three books provide undergrad and graduate level treatment of causal inference in social sciences</p>
+<p><a href="http://www.mostlyharmlesseconometrics.com/"><strong>Mostly Harmless Econometrics</strong></a> <em>Joshua D. Angrist and Jorn-Steffen Pischke</em></p>
+<p><a href="https://doi.org/10.1017/CBO9781139025751"><strong>Causal Inference for Statistics, Social, and Biomedical Sciences</strong></a> <em>Guido W. Imbens and Donald B. Rubin</em></p>
 </div>
 <div id="grading" class="section level2">
 <h2>Grading</h2>
 <p>Homework assignments: <strong>20%</strong>; Final exam: <strong>40%</strong>; Final project: <strong>40%</strong></p>
 </div>
+<div id="discussions" class="section level2">
+<h2>Discussions</h2>
+<p><a href="https://piazza.com/huji.ac.il/spring2019/57750/home">Piazza discussion forum</a> (private) and #ml4e_huji on twitter (public).</p>
+</div>
 <div id="feedback" class="section level2">
 <h2>Feedback</h2>
+<p>Your feedback is important! Please feel free to share with us your comments, concerns and suggestions on the course in person, email or anonymously <a href="http://www.admonymous.com/ml4e_huji">here</a>.</p>
 </div>
 
 <p>Copyright &copy; 2018 Itamar caspi. All rights reserved.</p>
 
 
+</div>
+</div>
 
 </div>
 
