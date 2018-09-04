@@ -1,0 +1,33 @@
+---
+title: "Git and GitHub"
+---
+  
+
+## Git installation
+
+Git is the *de facto* go-to solution for version control.
+
+Go [**here**](http://git-scm.com/downloads) to download a graphical Git installer appropriate for your machine’s operating system (Mac / Windows).
+
+Run the installer and follow its instructions to install the software. Usually the default options are all we need for configuring Git.
+
+**Important Note for Windows Users**: after Git installation, please open your command-line terminal and run the following code:
+  
+**`git config --system core.longpaths true`**
+  
+  
+## GitHub installation
+  
+GitHub is the leading online hosting service of Git repositories.
+
+Go [**here**](http://github.com) to register an account if you have not got one.
+
+## GitHub Desktop installation
+
+Go [**here**](https://desktop.github.com/) to download GitHub Desktop.
+
+## Cloning ml4e repository
+
+
+## Keeping clone up to date (pull)
+

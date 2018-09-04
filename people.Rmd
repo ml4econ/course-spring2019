@@ -1,0 +1,37 @@
+---
+title: "People"
+---
+
+```{r setup, include=FALSE}
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
+
+
+## Instructors
+
+<br>
+![](figures/itamar.png) <br>
+**Itamar caspi** <br>
+Senior Economist, *Bank of Israel* <br>
+[<i class="fa fa-home"></i> ](http://www.itamarcaspi.net/) 
+[<i class="fa fa-envelope"></i> ](mailto:caspi.itamar@gmail.com)
+[<i class="fa fa-github"></i> ](https://github.com/icaspi99/)
+[<i class="fa fa-twitter-square"></i> ](https://twitter.com/itamarcaspi/)
+
+<br>
+![](figures/ariel.png) <br>
+**Ariel Mansura** <br>
+Head of Statistical Methodology Unit, *Bank of Israel* <br>
+[<i class="fa fa-envelope"></i>](mailto:ariel.mansura@boi.org.il)
+
+
+## Teaching Assistants
+
+TBA
+
+## Guest lecturers
+
+
+## Office Hours
+
+By appointment

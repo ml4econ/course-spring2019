@@ -1,4 +1,4 @@
 ---
-title: "Datacamp for the Classroom"
+title: "DataCamp for the Classroom"
 ---
 

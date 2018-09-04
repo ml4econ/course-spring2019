@@ -8,13 +8,17 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "People"
-      href: about.html
+      href: people.html
     - text: "Lectures"
       href: lectures.html
-    - text: "Datacamp"
-      href: datacamp.html
-    - text: "Kaggle"
-      href: Kaggle.html
+    - text: "Guides"
+      menu:
+        - text: "Git and Github"
+          href: git.html
+        - text: "DataCamp Classroom"
+          href: datacamp.html
+        - text: "Kaggle In-Class"
+          href: kaggle.html
   right:
     - icon: fa-home
       href: https://icaspi99.github.io/ml4e/
