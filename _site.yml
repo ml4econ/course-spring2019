@@ -12,7 +12,7 @@ navbar:
     - text: "Lectures"
       href: lectures.html
     - text: "FAQ"
-      href: faq.html    
+      href: faq.html
     - text: "Guides"
       menu:
         - text: "Git and Github"
