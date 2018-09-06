@@ -1,0 +1,8 @@
+---
+title: "Frequently Asked Questions"
+---
+
+
+**Q**: Why `R` and not `Python`?  
+  
+**A**: 
