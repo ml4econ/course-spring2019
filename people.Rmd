@@ -11,11 +11,12 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 
 <br>
 ![](figures/itamar.png) <br>
-**Itamar caspi** <br>
+**Itamar Caspi** <br>
 Senior Economist, *Bank of Israel* <br>
 [<i class="fa fa-home"></i> ](http://www.itamarcaspi.net/) 
 [<i class="fa fa-envelope"></i> ](mailto:caspi.itamar@gmail.com)
-[<i class="fa fa-github"></i> ](https://github.com/icaspi99/)
+[<i class="fa fa-github"></i> ](https://github.com/itamarcaspi/)
+[<i class="fa fa-linkedin"></i> ](https://www.linkedin.com/in/itamar-caspi/)
 [<i class="fa fa-twitter-square"></i> ](https://twitter.com/itamarcaspi/)
 
 <br>
@@ -29,9 +30,10 @@ Head of Statistical Methodology Unit, *Bank of Israel* <br>
 
 TBA
 
-## Guest lecturers
+## Guest Lecturers
 
+TBA  
 
 ## Office Hours
 
-By appointment
+By appointment  
