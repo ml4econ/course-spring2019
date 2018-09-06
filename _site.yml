@@ -11,6 +11,8 @@ navbar:
       href: people.html
     - text: "Lectures"
       href: lectures.html
+    - text: "FAQ"
+      href: faq.html    
     - text: "Guides"
       menu:
         - text: "Git and Github"
@@ -20,10 +22,8 @@ navbar:
         - text: "Kaggle In-Class"
           href: kaggle.html
   right:
-    - icon: fa-home
-      href: https://icaspi99.github.io/ml4e/
     - icon: fa-github
-      href: https://github.com/icaspi99/ml4e/
+      href: https://github.com/itamarcaspi/ml4e/
     - icon: fa-question
       href: https://piazza.com/huji.ac.il/spring2019/57750/home
     - icon: fa-comments
