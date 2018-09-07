@@ -1,7 +1,14 @@
 ---
 title: "Machine Learning for Economists - 57750"
 ---
-
+  
+```{r fig.width=2, fig.height=2,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("figures/under_construction.png")
+ grid.raster(img)
+```
+  
 ## Course summary
 
 The course will cover topics that range between machine learning (ML) and econometrics. In particular, we will discuss concepts from the world of ML that can potentially contribute to empirical economics. The course will cover leading machine learning (supervised and unsupervised) methods, with an emphasis on the challenges and opportunities of integrating these methods in empirical economics, and the relevance of ML to policy analysis and causal inference. The various topics are illustrated through applications, reading empirical articles, and doing applied work.
