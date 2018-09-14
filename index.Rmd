@@ -6,7 +6,7 @@ title: "Machine Learning for Economists - 57750"
 ```{r fig.width=1.5, fig.height=1.5,echo=FALSE}
 library(png)
 library(grid)
-img <- readPNG("logo.png")
+img <- readPNG("figures/logo.png")
 grid.raster(img)
 ```
 
