@@ -15,7 +15,7 @@
    width="981.33331"
    height="1137.3333"
    viewBox="0 0 981.33331 1137.3333"
-   sodipodi:docname="grf_logo.svg"
+   sodipodi:docname="logo.svg"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
   <metadata
      id="metadata832">
@@ -83,9 +83,9 @@
      inkscape:window-height="705"
      id="namedview828"
      showgrid="true"
-     inkscape:zoom="1.1738139"
-     inkscape:cx="773.7175"
-     inkscape:cy="574.461"
+     inkscape:zoom="0.58690695"
+     inkscape:cx="514.60093"
+     inkscape:cy="537.59137"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -96,7 +96,7 @@
   </sodipodi:namedview>
   <path
      sodipodi:type="star"
-     style="fill:#37c837;stroke:#165016;stroke-width:28.603;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+     style="fill:#ffffff;stroke:#d38d5f;stroke-width:28.603;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1;stroke-opacity:1"
      id="path1393"
      sodipodi:sides="6"
      sodipodi:cx="460"
@@ -111,15 +111,15 @@
      d="m 460.00001,257.33325 329.08965,190.00001 -10e-6,380 -329.08966,190.00004 -329.08965,-190.00006 1e-5,-380 z" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:136px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff"
-     x="345.18851"
-     y="883.04877"
+     style="font-style:normal;font-weight:normal;font-size:136px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00be9f;fill-opacity:1;stroke:#ffffff"
+     x="277.18851"
+     y="875.04877"
      id="text1397"><tspan
        sodipodi:role="line"
        id="tspan1395"
-       x="345.18851"
-       y="883.04877"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:149.33332825px;font-family:'Cooper Black';-inkscape-font-specification:'Cooper Black, '">grf</tspan></text>
+       x="277.18851"
+       y="875.04877"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:149.33332825px;font-family:'Cooper Black';-inkscape-font-specification:'Cooper Black, ';fill:#00be9f;fill-opacity:1">ml4e</tspan></text>
   <image
      width="280"
      height="310"
@@ -170,7 +170,7 @@
        id="tspan4521-3"
        x="360.96014"
        y="726.25885"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.66666412px;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua Italic';fill:#d38d5f;stroke:#ffffff;">i</tspan></text>
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.33333333px;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua Bold Italic';fill:#d38d5f;stroke:#ffffff">i</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:32px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#d38d5f;fill-opacity:1;stroke:#ffffff;"
@@ -181,7 +181,7 @@
        id="tspan4521-3-5"
        x="668.53418"
        y="726.0459"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.66666412px;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua Italic';fill:#d38d5f;stroke:#ffffff;">i</tspan></text>
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.33333333px;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua Bold Italic';fill:#d38d5f;stroke:#ffffff">i</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:32px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#d38d5f;fill-opacity:1;stroke:#ffffff"
@@ -194,7 +194,7 @@
        id="tspan4521-3-8"
        x="386.07202"
        y="537.93494"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';fill:#d38d5f;stroke:#ffffff">(1)</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:66.66666667px;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua Bold';fill:#d38d5f;stroke:#ffffff">(1)</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:32px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#d38d5f;fill-opacity:1;stroke:#ffffff"
@@ -207,10 +207,10 @@
        id="tspan4521-3-8-8"
        x="695.34888"
        y="538.40125"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.33333206px;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';fill:#d38d5f;stroke:#ffffff">(0)</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:66.66666667px;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua Bold';fill:#d38d5f;stroke:#ffffff">(0)</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:32px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff9955;fill-opacity:1;stroke:#ffffff;"
+     style="font-style:normal;font-weight:normal;font-size:32px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#d38d5f;fill-opacity:1;stroke:#ffffff;"
      x="440.89124"
      y="657.57336"
      id="text4523-6-53-55"
@@ -220,5 +220,5 @@
        id="tspan4521-3-8-9"
        x="440.89124"
        y="657.57336"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.33332825px;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';fill:#ff9955;stroke:#ffffff;">-</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:133.33332825px;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';fill:#d38d5f;stroke:#ffffff;fill-opacity:1;">-</tspan></text>
 </svg>

@@ -1,5 +1,5 @@
 ---
-title: "In-class Kaggle"
+title: "In-class Kaggle Competition"
 ---
 
 ```{r fig.width=2, fig.height=2,echo=FALSE}
