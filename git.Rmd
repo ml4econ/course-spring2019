@@ -2,13 +2,6 @@
 title: "Git and GitHub"
 ---
 
-```{r fig.width=2, fig.height=2,echo=FALSE}
-library(png)
-library(grid)
-img <- readPNG("figures/under_construction.png")
- grid.raster(img)
-```  
-
 ## Git installation
 
 Git is the *de facto* go-to solution for version control.

@@ -2,13 +2,6 @@
 title: "Lectures"
 ---
 
-```{r fig.width=2, fig.height=2,echo=FALSE}
-library(png)
-library(grid)
-img <- readPNG("figures/under_construction.png")
- grid.raster(img)
-```
-
 ## Schedule
 
 The schedule below is tentative and subject to change, depending on time and class interests.

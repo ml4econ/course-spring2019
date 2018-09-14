@@ -2,13 +2,6 @@
 title: "DataCamp for the Classroom"
 ---
 
-```{r fig.width=2, fig.height=2,echo=FALSE}
-library(png)
-library(grid)
-img <- readPNG("figures/under_construction.png")
- grid.raster(img)
-```
-
 
 https://www.datacamp.com/enterprise/machine-learning-for-economists
 

@@ -35,5 +35,6 @@ output:
     theme: flatly
     highlight: zenburn
     include:
+      in_header: unconst.html
       after_body: footer.html
     css: styles.css

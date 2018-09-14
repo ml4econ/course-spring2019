@@ -2,14 +2,6 @@
 title: "People"
 ---
 
-```{r fig.width=2, fig.height=2,echo=FALSE}
-library(png)
-library(grid)
-img <- readPNG("figures/under_construction.png")
- grid.raster(img)
-```
-
-
 ```{r setup, include=FALSE}
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
