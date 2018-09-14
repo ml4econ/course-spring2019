@@ -1,5 +1,5 @@
 ---
-title: "In-class Kaggle Competition"
+title: "In-class Kaggle"
 ---
 
 ```{r fig.width=2, fig.height=2,echo=FALSE}
@@ -8,3 +8,5 @@ library(grid)
 img <- readPNG("figures/under_construction.png")
  grid.raster(img)
 ```
+
+
