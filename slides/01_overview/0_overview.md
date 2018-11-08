@@ -3,6 +3,7 @@ Course Overview
 author: Itamar Caspi
 date: March, 2018
 font-family: 'Book Antiqua'
+autosize: true
 
 
 
@@ -41,9 +42,15 @@ Slide With Plot
 Slide With Equation
 ========================================================
 - Consider the following regression
+
 $$
 y = \beta_0+\beta_1 x + \varepsilon
 $$
+
 where $y$ is the response variable
 
 
+Feedback
+========================================================
+
+Your feedback is most important
