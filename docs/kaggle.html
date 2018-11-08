@@ -267,7 +267,10 @@ div.tocify {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+  </a>
 </li>
 <li>
   <a href="people.html">People</a>
@@ -306,7 +309,7 @@ div.tocify {
 </li>
 <li>
   <a href="https://piazza.com/huji.ac.il/spring2019/57750/home">
-    <span class="fa fa-question"></span>
+    <span class="fa fa-question-circle-o"></span>
      
   </a>
 </li>
@@ -330,7 +333,45 @@ div.tocify {
 </div>
 
 
-
+<div id="what-is-kaggle" class="section level2">
+<h2>What is Kaggle?</h2>
+<p><a href="www.kaggle.com">Kaggle</a> is a huge data science community where machine learning practitioners around the world compete against each other in solving prediction problems. The data sets used in Kaggle competitions are uploaded by public and private companies (e.g., Google, Facebook) as well as by government agencies (e.g., the U. S. Department of Homeland Security).</p>
+<p>A ``Kaggler’’ wins a competition if her algorithm is the most accurate on a particular data set. Winners receive financial reward, job offers, and recognition from the community.</p>
+<p>Kaggle competitions are one of the best places to practice your ML skills and learn about state-of-the-art ML method. for instance, you can learn a lot about the tricks of the trade by reading interviews with past winners.</p>
+</div>
+<div id="ml4e-kaggle-competition" class="section level2">
+<h2>ml4e Kaggle Competition</h2>
+<p>One of your tasks in this course will be a Kaggle competition. In this competition, course participants will rely on the “Boston Housing Data” to train and test machine learning models learned in the course. In particular, you will be required to apply the tools introduced in the course in order to predict the median house value based on a set of area specific housing market features.</p>
+</div>
+<div id="getting-started" class="section level2">
+<h2>Getting Started</h2>
+<ol style="list-style-type: decimal">
+<li>Visit to <a href="www.kaggle.com" class="uri">www.kaggle.com</a> and open an account.</li>
+<li>Go to the ml4e_huji competition webpage:</li>
+<li>Review competition details - Objectives, deadline, data, evaluation, submission rules, etc.</li>
+</ol>
+</div>
+<div id="basic-kaggle-competition-workflow" class="section level2">
+<h2>Basic Kaggle Competition Workflow</h2>
+<ol style="list-style-type: decimal">
+<li>Acquire domain knowledge.</li>
+<li>Explore the data.</li>
+<li>Preprocessing (standardization, dummies, interactions, etc.).</li>
+<li>Choose a model class (Lasso, trees, NN, ensembles, etc.).</li>
+<li>Tune complexity (Cross validation).</li>
+<li>Submit your prediction.</li>
+</ol>
+<p>Important note: Examining and preprocessing the data with the help of domain knowledge (a.k.a. “feature engineering”&quot;) is probably one of the most important steps in applied ML.</p>
+</div>
+<div id="how-does-kaggle-ranking-work" class="section level2">
+<h2>How Does Kaggle Ranking Work?</h2>
+<ul>
+<li>MSE for the public test immediately available upon submission.</li>
+<li>MSE for the private test available only once the competition closes.</li>
+<li>The split between public and private test sets is arbitrary and unknown in advance.</li>
+</ul>
+<p>The competition’s final ranking is based on how well individuals perform on the <strong>PRIVATE</strong> test set.</p>
+</div>
 
 <p>Copyright &copy; 2018 Itamar caspi. All rights reserved.</p>
 

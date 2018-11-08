@@ -10,16 +10,17 @@ img <- readPNG("figures/logo.png")
 grid.raster(img)
 ```
 
+Welcome to the "Machine Learning for Economists - 57750" repository!  
+
 
 ## Course summary
 
 The course will cover topics that range between machine learning (ML) and econometrics. In particular, we will discuss concepts from the world of ML that can potentially contribute to empirical economics. The course will cover leading machine learning (supervised and unsupervised) methods, with an emphasis on the challenges and opportunities of integrating these methods in empirical economics, and the relevance of ML to policy analysis and causal inference. The various topics are illustrated through applications, reading empirical articles, and doing applied work.
 
-
 ## Computing
 
 All computing in class will be conducted in R.
-The focus of the class will be on teaching Machine Learning concepts rather than how to use R.
+The focus of the class will be on teaching Machine Learning concepts rather than how to use R. 
 
 
 ## Textbooks
@@ -37,7 +38,7 @@ This book covers the same topics as previous book (and more), however, it provid
 _PDF available online_
 
 
-The following three books provide undergrad and graduate level treatment of causal inference in social sciences:
+The following two textbooks provide graduate level treatment of causal inference in social sciences:
 
 [**Mostly Harmless Econometrics**](http://www.mostlyharmlesseconometrics.com/) <br/>
 *Joshua Angrist and Jorn-Steffen Pischke*

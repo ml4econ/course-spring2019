@@ -1,0 +1,57 @@
+
+\usefonttheme{serif}
+\usefonttheme{professionalfonts} % using non standard fonts for beamer
+\usepackage{mathpazo}
+\usepackage[scaled=.95]{helvet}% uncomment these if required
+
+\usepackage{etex}
+\reserveinserts{28}
+
+\usepackage{fontawesome}
+\usepackage{courier}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{verbatim}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{hyperref}
+\usepackage{pgfpages}
+\usepackage{subfig}
+\usepackage{booktabs}
+\usepackage{appendixnumberbeamer}
+\usepackage{econometrics}
+
+\setbeamertemplate{frametitle}
+{
+\begin{center}
+\textsc{{\large \insertframetitle}}
+\end{center}
+}
+
+
+\definecolor{UniBlue}{RGB}{83,121,170}
+\definecolor{UniGreen}{RGB}{00,128,00}
+
+%% Theorems
+\newcommand{\Exp}{\mathrm{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Cov}{\mathrm{Cov}}
+\newcommand{\Corr}{\mathrm{Corr}}
+\newcommand{\ts}{\textsuperscript}
+
+\setbeamercolor{alerted text}{fg=UniGreen} 
+\setbeamerfont{alerted text}{series=\bfseries, shape=\itshape} 
+
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber
+}
+\setbeamerfont{footline}{size=\footnotesize, series=\bfseries}
+\setbeamercolor{background box}{bg=lightgray}
+
+\newcommand\YUGE{\fontsize{48}{60}\selectfont}

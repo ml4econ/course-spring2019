@@ -1,11 +1,13 @@
+url: https://itamarcaspi.github.io/ml4e
+
 name: "ml4e"
 output_dir: "docs"
 
 navbar:
-  title: "#ml4e_huji"
+  title: "#ml4e_HUJI"
   type: inverse
   left:
-    - text: "Home"
+    - icon: fa-home
       href: index.html
     - text: "People"
       href: people.html
@@ -24,7 +26,7 @@ navbar:
   right:
     - icon: fa-github
       href: https://github.com/itamarcaspi/ml4e/
-    - icon: fa-question
+    - icon: fa-question-circle-o
       href: https://piazza.com/huji.ac.il/spring2019/57750/home
     - icon: fa-comments
       href: http://www.admonymous.com/ml4e_huji

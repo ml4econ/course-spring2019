@@ -25,7 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -84,7 +84,7 @@
      id="namedview828"
      showgrid="true"
      inkscape:zoom="0.58690695"
-     inkscape:cx="514.60093"
+     inkscape:cx="763.86599"
      inkscape:cy="537.59137"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
