@@ -4,9 +4,10 @@ author: "Itamar Caspi"
 date: '2019'
 output:
   ioslides_presentation:
+    css: style.css
     df_print: tibble
     highlight: espresso
-    css: style.css
+    keep_md: yes
   beamer_presentation:
     highlight: espresso
     includes:

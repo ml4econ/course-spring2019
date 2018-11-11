@@ -35,3 +35,10 @@ Slide With Plot
 ========================================================
 
 ![plot of chunk unnamed-chunk-2](rpres-figure/unnamed-chunk-2-1.png)
+
+Slide With Equation
+========================================================
+
+$$
+y=ax+b+e
+$$

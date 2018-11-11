@@ -26,3 +26,10 @@ Slide With Plot
 ```{r, echo=FALSE}
 plot(cars)
 ```
+
+Slide With Equation
+========================================================
+
+$$
+y=ax+b+e
+$$
