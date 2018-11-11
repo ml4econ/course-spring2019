@@ -23,4 +23,4 @@ We will move at a pace dictated by class discussions. Please check this page oft
 
 
 ## Week 1
-
+[bla](https://github.com/itamarcaspi/ml4e/blob/master/slides/slideTemplates/beamer/index.html)

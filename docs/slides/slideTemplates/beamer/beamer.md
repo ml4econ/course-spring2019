@@ -4,9 +4,10 @@ author: "Itamar Caspi"
 date: '2019'
 output:
   ioslides_presentation:
+    css: style.css
     df_print: tibble
     highlight: espresso
-    css: style.css
+    keep_md: yes
   beamer_presentation:
     highlight: espresso
     includes:
@@ -16,11 +17,7 @@ editor_options:
   chunk_output_type: inline
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  echo = FALSE, warning = FALSE, message = FALSE
-)
-```
+
 
 ## R Markdown
 
@@ -36,8 +33,21 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ## Slide with R Output
 
-```{r cars, echo = TRUE}
+
+```r
 head(cars)
+```
+
+```
+## # A tibble: 6 x 2
+##   speed  dist
+## * <dbl> <dbl>
+## 1     4     2
+## 2     4    10
+## 3     7     4
+## 4     7    22
+## 5     8    16
+## 6     9    10
 ```
 
 ## Bias-Variance Tradeoff
@@ -47,9 +57,7 @@ where $y$ is the response variable...
 
 ## Slide with Plot
 
-```{r pressure}
-plot(pressure)
-```
+![](beamer_files/figure-html/pressure-1.png)<!-- -->
 
 ## New Slide
 
