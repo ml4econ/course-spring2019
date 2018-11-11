@@ -3,6 +3,7 @@ rpres
 author: 
 date: 
 autosize: true
+font-family: 'Book Antiqua'
 
 First Slide
 ========================================================
@@ -38,7 +39,7 @@ Slide With Plot
 
 Slide With Equation
 ========================================================
-
+I am an ~~economis~~
 $$
 y=ax+b+e
 $$

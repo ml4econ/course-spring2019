@@ -27,5 +27,10 @@
 *.out
 *.synctex.gz
 
+*.js
+*.otf
+*.woff
+*.js-e
+
 /slides/01_overview/0_overview-cache/*.*
 /slides/01_overview/0_overview-figure/*.*
