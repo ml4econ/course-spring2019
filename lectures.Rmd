@@ -2,8 +2,6 @@
 title: "Lectures"
 ---
 
-## Schedule
-
 The schedule below is tentative and subject to change, depending on time and class interests.
 We will move at a pace dictated by class discussions. Please check this page often for updates.
 
@@ -17,10 +15,10 @@ We will move at a pace dictated by class discussions. Please check this page oft
 | [**6**](#week-6)      | Ariel | Descision Trees and Random Forests| 
 | [**7**](#week-7)      | Ariel | Unsupervised Learning|
 | [**8**](#week-8)      | Itamar | Prediction in Aid of Estimation I - Average Treatment Effects |
-| [**9**](#week-9)      | Itamar | Prediction in Aid of Estimation I - Heterogenous Treatment Effects |
+| [**9**](#week-9)      | Itamar | Prediction in Aid of Estimation II - Heterogenous Treatment Effects |
 | [**10**](#week-10)    | Itamar | Prediction Policy Problems |
 | [**11**](#week-11)    | Itamar | Robustness Analysis |
-| [**11**](#week-11)    | Itamar | The Economics of AI|
+| [**12**](#week-12)    | Itamar | The Economics of AI|
 
 
 ## Week 1

@@ -2,7 +2,7 @@
 title: "Data"
 ---
 
-Throughout the course we will make use of he `experimentdatar` data package that contains publicly available datasets that were used in Susan Athey and Guido Imbens' course ["Machine Learning and Econometrics"](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) (AEA continuing Education, 2018). The datasets are conveniently packed for R users.
+Throughout the course we will make use of he [`experimentdatar`](https://itamarcaspi.github.io/experimentdatar/) data package that contains publicly available datasets that were used in Susan Athey and Guido Imbens' course ["Machine Learning and Econometrics"](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) (AEA continuing Education, 2018). The datasets are conveniently packed for R users.
 
 ## Installation
 
