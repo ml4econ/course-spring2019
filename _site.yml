@@ -13,6 +13,8 @@ navbar:
       href: people.html
     - text: "Lectures"
       href: lectures.html
+    - text: "Data"
+      href: data.html
     - text: "FAQ"
       href: faq.html
     - text: "Guides"
@@ -35,7 +37,6 @@ output:
     toc: true
     toc_float: true
     theme: flatly
-    highlight: zenburn
     include:
       in_header: unconst.html
       after_body: footer.html

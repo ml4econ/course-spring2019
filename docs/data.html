@@ -11,7 +11,7 @@
 
 
 
-<title>Machine Learning for Economists - 57750</title>
+<title>Data</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,29 +23,80 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
 <script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
 <script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 <p><img src="figures/under_construction.png" width="50" /></p>
 
+
 <style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  { color: #cccccc; background-color: #303030; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ffcfaf; } /* Alert */
+code span.an { color: #7f9f7f; font-weight: bold; } /* Annotation */
+code span.at { } /* Attribute */
+code span.bn { color: #dca3a3; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #f0dfaf; } /* ControlFlow */
+code span.ch { color: #dca3a3; } /* Char */
+code span.cn { color: #dca3a3; font-weight: bold; } /* Constant */
+code span.co { color: #7f9f7f; } /* Comment */
+code span.cv { color: #7f9f7f; font-weight: bold; } /* CommentVar */
+code span.do { color: #7f9f7f; } /* Documentation */
+code span.dt { color: #dfdfbf; } /* DataType */
+code span.dv { color: #dcdccc; } /* DecVal */
+code span.er { color: #c3bf9f; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #c0bed1; } /* Float */
+code span.fu { color: #efef8f; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #7f9f7f; font-weight: bold; } /* Information */
+code span.kw { color: #f0dfaf; } /* Keyword */
+code span.op { color: #f0efd0; } /* Operator */
+code span.ot { color: #efef8f; } /* Other */
+code span.pp { color: #ffcfaf; font-weight: bold; } /* Preprocessor */
+code span.sc { color: #dca3a3; } /* SpecialChar */
+code span.ss { color: #cc9393; } /* SpecialString */
+code span.st { color: #cc9393; } /* String */
+code span.va { } /* Variable */
+code span.vs { color: #cc9393; } /* VerbatimString */
+code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
+</style>
 <style type="text/css">
   pre:not([class]) {
     background-color: white;
   }
 </style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
-
 
 
 <style type="text/css">
@@ -348,41 +399,58 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Machine Learning for Economists - 57750</h1>
+<h1 class="title toc-ignore">Data</h1>
 
 </div>
 
 
-<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" width="144" /></p>
-<p>Welcome to the “Machine Learning for Economists - 57750” repository!</p>
-<div id="course-summary" class="section level2">
-<h2>Course summary</h2>
-<p>The course will cover topics that range between machine learning (ML) and econometrics. In particular, we will discuss concepts from the world of ML that can potentially contribute to empirical economics. The course will cover leading machine learning (supervised and unsupervised) methods, with an emphasis on the challenges and opportunities of integrating these methods in empirical economics, and the relevance of ML to policy analysis and causal inference. The various topics are illustrated through applications, reading empirical articles, and doing applied work.</p>
+<p>Throughout the course we will make use of he <code>experimentdatar</code> data package that contains publicly available datasets that were used in Susan Athey and Guido Imbens’ course <a href="https://www.aeaweb.org/conference/cont-ed/2018-webcasts">“Machine Learning and Econometrics”</a> (AEA continuing Education, 2018). The datasets are conveniently packed for R users.</p>
+<div id="installation" class="section level2">
+<h2>Installation</h2>
+<p>You can install the <strong>development</strong> version from <a href="https://github.com/itamarcaspi/experimentdatar/">GitHub</a></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="co"># install.packages(&quot;devtools&quot;)</span></a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;itamarcaspi/experimentdatar&quot;</span>)</a></code></pre></div>
 </div>
-<div id="computing" class="section level2">
-<h2>Computing</h2>
-<p>All computing in class will be conducted in R. The focus of the class will be on teaching Machine Learning concepts rather than how to use R.</p>
+<div id="usage" class="section level2">
+<h2>Usage</h2>
+<p>Load <code>experimentdatar</code> and other required libraries</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw">library</span>(dplyr)</a>
+<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="kw">library</span>(experimentdatar)</a></code></pre></div>
+<p>Load the <code>social</code> dataset and display the response (<code>outcome_vote</code>) and treatment variable (<code>treat_neighbors</code>)</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw">data</span>(social)  </a>
+<a class="sourceLine" id="cb3-2" data-line-number="2">social <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb3-3" data-line-number="3"><span class="st">  </span><span class="kw">select</span>(outcome_voted, treat_neighbors) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb3-4" data-line-number="4"><span class="st">  </span><span class="kw">head</span>()</a></code></pre></div>
+<pre><code>## # A tibble: 6 x 2
+##   outcome_voted treat_neighbors
+##           &lt;int&gt;           &lt;int&gt;
+## 1             0               0
+## 2             1               0
+## 3             1               0
+## 4             0               0
+## 5             0               0
+## 6             0               0</code></pre>
+<p>There is also a function <code>dataDetails</code> that opens the original paper where the data was used</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="kw">dataDetails</span>(<span class="st">&quot;social&quot;</span>)</a></code></pre></div>
 </div>
-<div id="textbooks" class="section level2">
-<h2>Textbooks</h2>
-<p>There are no required textbooks. All materials notes will be available on the class website. The following books may be useful references, however, note that they do not cover all the material we plan to cover in the class.</p>
-<p><a href="http://www-bcf.usc.edu/~gareth/ISL"><strong>An Introduction to Statistical Learning with Applications in R</strong></a> <br> <em>Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani</em> <br> This book provides a hands-on and R-based introduction to Machine Learning. <br/> <em>PDF available online</em></p>
-<p><a href="http://statweb.stanford.edu/~tibs/ElemStatLearn"><strong>Elements of Statistical Learning</strong></a> <br> <em>Trevor Hastie, Robert Tibshirani and Jerome Friedman</em> <br/> This book covers the same topics as previous book (and more), however, it provides more rigorous treatment. <br> <em>PDF available online</em></p>
-<p>The following two textbooks provide graduate level treatment of causal inference in social sciences:</p>
-<p><a href="http://www.mostlyharmlesseconometrics.com/"><strong>Mostly Harmless Econometrics</strong></a> <br/> <em>Joshua Angrist and Jorn-Steffen Pischke</em></p>
-<p><a href="https://doi.org/10.1017/CBO9781139025751"><strong>Causal Inference for Statistics, Social, and Biomedical Sciences</strong></a> <br/> <em>Guido Imbens and Donald Rubin</em></p>
-</div>
-<div id="grading" class="section level2">
-<h2>Grading</h2>
-<p>Homework assignments: <strong>20%</strong>; Final exam: <strong>40%</strong>; Final project: <strong>40%</strong></p>
-</div>
-<div id="discussions" class="section level2">
-<h2>Discussions</h2>
-<p><a href="https://piazza.com/huji.ac.il/spring2019/57750/home">Piazza discussion forum</a> (private) and #ml4e_huji on twitter (public).</p>
-</div>
-<div id="feedback" class="section level2">
-<h2>Feedback</h2>
-<p>Your feedback is important! Please feel free to share with us your comments, concerns and suggestions on the course in person, email or anonymously <a href="http://www.admonymous.com/ml4e_huji">here</a>.</p>
+<div id="list-of-available-datasets" class="section level2">
+<h2>List of available datasets</h2>
+<ul>
+<li><p><code>charitable</code>: Data used for the paper “Does Price matter in charitable giving? Evidence from a large-Scale Natural Field experiment”<br />
+by Karlan and List (2007).</p></li>
+<li><p><code>IVdataset</code>: Data used for the paper “Does compulsory school attendance affect schooling and earnings?”<br />
+by Angrist and Krueger (1991) and related papers.</p></li>
+<li><p><code>mobilization</code>: Data for the paper “Comparing Experimental and Matching Methods Using a Large-Scale Voter Mobilization Experiment”<br />
+by Arceneaux, Gerber, and Green (2006).</p></li>
+<li><p><code>vouchers</code>: Data for the paper “Vouchers for Private Schooling in Colombia: Evidence from a Randomized Natural Experiment”<br />
+by Angrist, Bettinger, Bloom, King, and Kremer (2002).</p></li>
+<li><p><code>secrecy</code>: Data for the paper “Ballot Secrecy Concerns and Voter Mobilization: New Experimental Evidence about Message Source, Context, and the Duration of Mobilization Effects”<br />
+by Gerber, Hubers, Biggers, and Hendry (2014).</p></li>
+<li><p><code>social</code>: Data for the paper “Social Pressure and Voter Turnout: Evidence from a Large-Scale Field Experiment”<br />
+by Gerber, Green, and Larimer (2008).</p></li>
+<li><p><code>welfare</code>: Data for the paper “Modeling heterogeneous treatment effects in survey experiments with Bayesian Additive Regression Trees”<br />
+by Green and Kern (2012).</p></li>
+</ul>
 </div>
 
 <p>Copyright &copy; 2018 Itamar caspi. All rights reserved.</p>

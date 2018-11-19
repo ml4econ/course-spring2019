@@ -1,27 +1,26 @@
 ---
 title: "Basic Concepts"
+subtitle: "HUJI::ml4e"
 author: "Itamar Caspi"
 date: '2019'
 output:
   ioslides_presentation:
-    css: style.css
+    css: styles.css
     df_print: tibble
-    highlight: espresso
+    highlight: tango
     keep_md: yes
   beamer_presentation:
-    highlight: espresso
+    highlight: default
     includes:
       in_header: preamble.txt
     df_print: kable
-editor_options:
-  chunk_output_type: inline
 ---
 
 
 
 ## R Markdown
 
-This is an \alert{R Markdown} presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This is an TBA presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
 
@@ -55,7 +54,12 @@ head(cars)
 $$y = ax+b+e$$
 where $y$ is the response variable...
 
-## Slide with Plot
+## Slide with Plot {.smaller}
+
+
+```r
+autoplot(lm(Petal.Width ~ Petal.Length, data = iris), label.size = 3)
+```
 
 ![](beamer_files/figure-html/pressure-1.png)<!-- -->
 
