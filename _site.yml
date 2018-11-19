@@ -37,6 +37,7 @@ output:
     toc: true
     toc_float: true
     theme: flatly
+    highlight: tango
     include:
       in_header: unconst.html
       after_body: footer.html
