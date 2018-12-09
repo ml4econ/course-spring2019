@@ -39,6 +39,6 @@ output:
     theme: flatly
     highlight: tango
     include:
-      in_header: unconst.html
+#      in_header: unconst.html
       after_body: footer.html
     css: styles.css
