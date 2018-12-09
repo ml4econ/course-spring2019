@@ -19,8 +19,7 @@ The course will cover topics that range between machine learning (ML) and econom
 
 ## Computing
 
-All computing in class will be conducted in R.
-The focus of the class will be on teaching Machine Learning concepts rather than how to use R. 
+All computing in class will be conducted in R. Nevertheless, we encourage you to tryout Python as well. In general though, the focus of the class will be on teaching Machine Learning concepts rather than how to use R or Python. 
 
 
 ## Textbooks

@@ -4,7 +4,7 @@ author: "Itamar Caspi"
 date: '2019'
 output:
   ioslides_presentation:
-    css: style.css
+    css: styles.css
     df_print: tibble
     highlight: espresso
     keep_md: yes

@@ -10,22 +10,22 @@ Go [**here**](http://git-scm.com/downloads) to download a graphical Git installe
 
 Run the installer and follow its instructions to install the software. Usually the default options are all we need for configuring Git.
 
-**Important Note for Windows Users**: after Git installation, please open your command-line terminal and run the following code:
-  
-**`git config --system core.longpaths true`**
-  
-  
-## GitHub installation
-  
-GitHub is the leading online hosting service of Git repositories.
 
-Go [**here**](http://github.com) to register an account if you have not got one.
+## Open a GitHub account
+  
+GitHub is the leading cloud hosting service of Git repositories. It is kind of a Dropbox on steroids for programmers.
+
+Go [**here**](http://github.com) to register an account if you have not got one. It is highly recemmended to choose a straightforward username (e.g., *itamarcaspi* instead of *icaspi99*) so that your are easily found.
 
 ## GitHub Desktop installation
 
-Go [**here**](https://desktop.github.com/) to download GitHub Desktop.
+GitHub Desktop provides a straightforward GUI interface to git and GitHub. It enables you to easily sync between your local and remote folders and apply basic git commands with a click of a button. 
 
-## Cloning ml4e repository
+Go [**here**](https://desktop.github.com/) to download GitHub Desktop, and follow the installation guide. 
+
+## Cloning the `ml4e` repository
+
+Once git, GitHub and GitHub desktop are all set, open GitHub Desktop and go [**here**]() to open our `ml4e` course repository. Once in the repository, klick on the green **Clone or download** button (top right, above the folders and files pane). If done correctly, GitHub Desktop should prompt you with a request for a local destination for the `ml4e` repository.
 
 
 ## Keeping clone up to date (pull)
