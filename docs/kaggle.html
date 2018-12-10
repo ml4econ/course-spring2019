@@ -23,9 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
 
@@ -86,6 +85,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -100,7 +102,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -120,6 +121,43 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -141,18 +179,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -291,6 +388,9 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
+      <a href="RnRStudio.html">R and RStudio</a>
+    </li>
+    <li>
       <a href="git.html">Git and Github</a>
     </li>
     <li>
@@ -335,26 +435,26 @@ div.tocify {
 </div>
 
 
-<div id="what-is-kaggle" class="section level2">
-<h2>What is Kaggle?</h2>
+<div id="what-is-kaggle" class="section level3">
+<h3>What is Kaggle?</h3>
 <p><a href="www.kaggle.com">Kaggle</a> is a huge data science community where machine learning practitioners around the world compete against each other in solving prediction problems. The data sets used in Kaggle competitions are uploaded by public and private companies (e.g., Google, Facebook) as well as by government agencies (e.g., the U. S. Department of Homeland Security).</p>
 <p>A ``Kaggler’’ wins a competition if her algorithm is the most accurate on a particular data set. Winners receive financial reward, job offers, and recognition from the community.</p>
 <p>Kaggle competitions are one of the best places to practice your ML skills and learn about state-of-the-art ML method. for instance, you can learn a lot about the tricks of the trade by reading interviews with past winners.</p>
 </div>
-<div id="ml4e-kaggle-competition" class="section level2">
-<h2>ml4e Kaggle Competition</h2>
+<div id="ml4e-kaggle-competition" class="section level3">
+<h3><code>ml4e</code> Kaggle Competition</h3>
 <p>One of your tasks in this course will be a Kaggle competition. In this competition, course participants will rely on the “Boston Housing Data” to train and test machine learning models learned in the course. In particular, you will be required to apply the tools introduced in the course in order to predict the median house value based on a set of area specific housing market features.</p>
 </div>
-<div id="getting-started" class="section level2">
-<h2>Getting Started</h2>
+<div id="getting-started" class="section level3">
+<h3>Getting Started</h3>
 <ol style="list-style-type: decimal">
 <li>Visit to <a href="www.kaggle.com" class="uri">www.kaggle.com</a> and open an account.</li>
 <li>Go to the ml4e_huji competition webpage:</li>
 <li>Review competition details - Objectives, deadline, data, evaluation, submission rules, etc.</li>
 </ol>
 </div>
-<div id="basic-kaggle-competition-workflow" class="section level2">
-<h2>Basic Kaggle Competition Workflow</h2>
+<div id="basic-kaggle-competition-workflow" class="section level3">
+<h3>Basic Kaggle Competition Workflow</h3>
 <ol style="list-style-type: decimal">
 <li>Acquire domain knowledge.</li>
 <li>Explore the data.</li>
@@ -365,8 +465,8 @@ div.tocify {
 </ol>
 <p>Important note: Examining and preprocessing the data with the help of domain knowledge (a.k.a. “feature engineering”&quot;) is probably one of the most important steps in applied ML.</p>
 </div>
-<div id="how-does-kaggle-ranking-work" class="section level2">
-<h2>How Does Kaggle Ranking Work?</h2>
+<div id="how-does-kaggle-ranking-work" class="section level3">
+<h3>How Does Kaggle Ranking Work?</h3>
 <ul>
 <li>MSE for the public test immediately available upon submission.</li>
 <li>MSE for the private test available only once the competition closes.</li>
@@ -374,8 +474,10 @@ div.tocify {
 </ul>
 <p>The competition’s final ranking is based on how well individuals perform on the <strong>PRIVATE</strong> test set.</p>
 </div>
+<div id="resources" class="section level3">
+<h3>Resources</h3>
+</div>
 
-<&nbsp;
 <hr />
 <p style="text-align: center;">A work by <a href="https://www.itamarcaspi.net/">Itamar Caspi</a></p>
 
@@ -388,8 +490,6 @@ div.tocify {
     <a href="mailto:caspi.itamar@gmail.com" class="fa fa-envelope-o"></a>
     <a href="https://github.com/itamarcaspi/" class="fa fa-github"></a>
 </p>
-
-&nbsp;
 
 
 </div>

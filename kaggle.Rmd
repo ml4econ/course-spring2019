@@ -3,7 +3,7 @@ title: "In-class Kaggle Competition"
 ---
 
 
-## What is Kaggle?
+### What is Kaggle?
 
 [Kaggle](www.kaggle.com) is a huge data science community where machine learning practitioners around the world compete against each other in solving prediction problems. The data sets used in Kaggle competitions are uploaded by public and private companies (e.g., Google, Facebook) as well as by government agencies (e.g., the U. S. Department of Homeland Security). 
   
@@ -13,19 +13,19 @@ Kaggle competitions are one of the best places to practice your ML skills and le
 
 
 
-## ml4e Kaggle Competition
+### `ml4e` Kaggle Competition
 
 One of your tasks in this course will be a Kaggle competition. In this competition, course participants will rely on the "Boston Housing Data" to train and test machine learning models learned in the course. In particular, you will be required to apply the tools introduced in the course in order to predict the median house value based on a set of area specific housing market features.
 
 
-## Getting Started
+### Getting Started
 
 1. Visit to [www.kaggle.com](www.kaggle.com) and open an account.
 2. Go to the ml4e_huji  competition webpage: 
 3. Review competition details - Objectives, deadline, data, evaluation, submission rules, etc. 
 
 
-## Basic Kaggle Competition Workflow
+### Basic Kaggle Competition Workflow
 
 1. Acquire domain knowledge.
 2. Explore the data. 
@@ -37,10 +37,13 @@ One of your tasks in this course will be a Kaggle competition. In this competiti
 Important note: Examining and preprocessing the data with the help of domain knowledge (a.k.a. "feature engineering"") is probably one of the most important steps in applied ML.
 
 
-## How Does Kaggle Ranking Work?
+### How Does Kaggle Ranking Work?
 
 * MSE for the public test immediately available upon submission.
 * MSE for the private test available only once the competition closes.
 * The split between public and private test sets is arbitrary and unknown in advance.
 
 The competition's final ranking is based on how well individuals perform on the **PRIVATE** test set.
+
+
+### Resources

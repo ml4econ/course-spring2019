@@ -11,7 +11,7 @@
 
 
 
-<title>Lectures</title>
+<title>R and RStudio</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -430,90 +430,42 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Lectures</h1>
+<h1 class="title toc-ignore">R and RStudio</h1>
 
 </div>
 
 
-<p>The schedule below is tentative and subject to change, depending on time and class interests. We will move at a pace dictated by class discussions. Please check this page often for updates.</p>
-<table>
-<colgroup>
-<col width="18%" />
-<col width="16%" />
-<col width="65%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Week</th>
-<th align="left">Who</th>
-<th align="left">Topic</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><a href="#week-1"><strong>1</strong></a></td>
-<td align="left">Itamar</td>
-<td align="left">Course Overview</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="#week-2"><strong>2</strong></a></td>
-<td align="left">Itamar</td>
-<td align="left">Introduction to R, Rstudio, Rproj, and GitHub</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="#week-3"><strong>3</strong></a></td>
-<td align="left">Ariel</td>
-<td align="left">Regression and K Nearest Neighbors</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="#week-4"><strong>4</strong></a></td>
-<td align="left">Ariel</td>
-<td align="left">Classification</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="#week-5"><strong>5</strong></a></td>
-<td align="left">Ariel</td>
-<td align="left">Dimenssionality Reduction</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="#week-6"><strong>6</strong></a></td>
-<td align="left">Ariel</td>
-<td align="left">Descision Trees and Random Forests</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="#week-7"><strong>7</strong></a></td>
-<td align="left">Ariel</td>
-<td align="left">Unsupervised Learning</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="#week-8"><strong>8</strong></a></td>
-<td align="left">Itamar</td>
-<td align="left">Prediction in Aid of Estimation I - Average Treatment Effects</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="#week-9"><strong>9</strong></a></td>
-<td align="left">Itamar</td>
-<td align="left">Prediction in Aid of Estimation II - Heterogenous Treatment Effects</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="#week-10"><strong>10</strong></a></td>
-<td align="left">Itamar</td>
-<td align="left">Prediction Policy Problems</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="#week-11"><strong>11</strong></a></td>
-<td align="left">Itamar</td>
-<td align="left">Robustness Analysis</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="#week-12"><strong>12</strong></a></td>
-<td align="left">Itamar</td>
-<td align="left">The Economics of AI</td>
-</tr>
-</tbody>
-</table>
-<div id="week-1" class="section level2">
-<h2>Week 1</h2>
+<p>To get started, you first need to install R. Next, we highly recommend using RStudio, a integrated development environment (IDE) that makes working with R much easier (RStudio’s setup will be familiar for those of you who have worked with Matlab.). RStudio comes with the very handy <code>RProj</code> environment and provieds many built-in features that help facilitate data analysis and modelling tasks. In addition, RStudio integrates RMarkdown notebooks that and git, thus enabling us to efficiently work with version control.</p>
+<div id="install-r" class="section level3">
+<h3>Install R</h3>
+<p>Go to <a href="https://cloud.r-project.org/">CRAN</a> and click on the download link that suits your OS.</p>
+</div>
+<div id="install-rstudio" class="section level3">
+<h3>Install RStudio</h3>
+<p>Go to <a href="https://www.rstudio.com/">RStudio</a> website and click on the download button. The free version is more than what you need for this course.</p>
+<p>Two recommended settings:</p>
+<ol style="list-style-type: decimal">
+<li><p>Go to <strong>Tools -&gt; General Options -&gt; General</strong> and set the Save workspace to .RData on exit to <em>NEVER</em>. This option improves the replicability of your projects since it causes you to start every project in a new R session, i.e., a clean environment and without any packages pre-loaded.</p></li>
+<li><p>Go to <strong>Tools -&gt; General Options -&gt; Git/SVN</strong> and check the “Enable version control interface to RStudio projects” box. Next, make sure that the “Git executable” points to the git binary file (e.g., “C:/Program Files/Git/bin/git.exe”).</p></li>
+</ol>
+</div>
+<div id="alternativs-to-rstudio" class="section level3">
+<h3>Alternativs to RStudio</h3>
+<p>If for some reason you insist on not using RStudio, we can suggest a couple alternative open-source IDEs:</p>
+<ol style="list-style-type: decimal">
+<li><a href="https://jupyterlab.readthedocs.io/en/stable/#">JupyterLab</a> coupled with the <a href="https://github.com/IRkernel/IRkernel">IRkernel</a> extension.</li>
+<li><a href="https://atom.io/">Atom</a> coupled with the <a href="https://atom.io/packages/ide-r">ide-r</a> and <a href="https://atom.io/packages/hydrogen">Hydrogen</a> extensions.</li>
+</ol>
+<p>Note that all IDEs, RStudio included depend on R being installed.</p>
+</div>
+<div id="resources" class="section level3">
+<h3>Resources</h3>
+<ul>
+<li>Datacamp’s <a href="https://www.datacamp.com/courses/free-introduction-to-r">Introduction to R</a> and <a href="https://www.datacamp.com/courses/working-with-the-rstudio-ide-part-1">Working with the RStudio IDE (Part 1)</a> courses.</li>
+<li>A <a href="https://rforeval.com/courses/setup/">step-by-step guide</a> to get you started with R and RStudio.</li>
+<li><p><a href="https://www.rstudio.com/resources/cheatsheets/">RStudio cheet sheets</a> where you can find, among others, an RStudio IDE and RMarkdown cheet sheets.</p></li>
+<li><p><a href="https://rbasics.netlify.com/index.html">Getting used to R RStudio and RMarkdown</a>.</p></li>
+</ul>
 </div>
 
 <hr />

@@ -23,9 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
 
@@ -86,6 +85,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -100,7 +102,6 @@ body {
   padding-top: 65px;
   margin-top: -65px;
 }
-
 .section h2 {
   padding-top: 65px;
   margin-top: -65px;
@@ -120,6 +121,43 @@ body {
 .section h6 {
   padding-top: 65px;
   margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -141,18 +179,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -291,6 +388,9 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
+      <a href="RnRStudio.html">R and RStudio</a>
+    </li>
+    <li>
       <a href="git.html">Git and Github</a>
     </li>
     <li>
@@ -335,31 +435,33 @@ div.tocify {
 </div>
 
 
-<div id="git-installation" class="section level2">
-<h2>Git installation</h2>
-<p>Git is the <em>de facto</em> go-to solution for version control.</p>
+<p>Git is the <em>de facto</em> go-to solution for version control. Think of “track changes” on setroids for code files. GitHub is the leading cloud hosting service of Git repositories. It is kind of a Dropbox on steroids (sorry for repeating a metaphore) for programmers, that enabels efficient code sharing and collaobration.</p>
+<div id="git-installation" class="section level3">
+<h3>Git installation</h3>
 <p>Go <a href="http://git-scm.com/downloads"><strong>here</strong></a> to download a graphical Git installer appropriate for your machine’s operating system (Mac / Windows).</p>
 <p>Run the installer and follow its instructions to install the software. Usually the default options are all we need for configuring Git.</p>
-<p><strong>Important Note for Windows Users</strong>: after Git installation, please open your command-line terminal and run the following code:</p>
-<p><strong><code>git config --system core.longpaths true</code></strong></p>
 </div>
-<div id="github-installation" class="section level2">
-<h2>GitHub installation</h2>
-<p>GitHub is the leading online hosting service of Git repositories.</p>
-<p>Go <a href="http://github.com"><strong>here</strong></a> to register an account if you have not got one.</p>
+<div id="open-a-github-account" class="section level3">
+<h3>Open a GitHub account</h3>
+<p>Go <a href="http://github.com"><strong>here</strong></a> to register an account if you have not got one. It is highly recemmended to choose a straightforward username (e.g., <em>itamarcaspi</em> instead of <em>icaspi99</em>) so that your are easily found.</p>
 </div>
-<div id="github-desktop-installation" class="section level2">
-<h2>GitHub Desktop installation</h2>
-<p>Go <a href="https://desktop.github.com/"><strong>here</strong></a> to download GitHub Desktop.</p>
+<div id="github-desktop-installation" class="section level3">
+<h3>GitHub Desktop installation</h3>
+<p>GitHub Desktop provides a straightforward GUI interface to git and GitHub. It enables you to easily sync between your local and remote folders and apply basic git commands with a click of a button.</p>
+<p>Go <a href="https://desktop.github.com/"><strong>here</strong></a> to download GitHub Desktop, and follow the installation guide.</p>
 </div>
-<div id="cloning-ml4e-repository" class="section level2">
-<h2>Cloning ml4e repository</h2>
+<div id="cloning-the-ml4e-repository" class="section level3">
+<h3>Cloning the <code>ml4e</code> repository</h3>
+<p>Once git, GitHub and GitHub desktop are all set, open GitHub Desktop and go <a href=""><strong>here</strong></a> to open our <code>ml4e</code> course repository. Once in the repository, klick on the green <strong>Clone or download</strong> button (top right, above the folders and files pane). If done correctly, GitHub Desktop should prompt you with a request for a local destination for the <code>ml4e</code> repository. Choose where you want to install your local copy of the <code>ml4e</code> repo, click OK, and we’re done.</p>
 </div>
-<div id="keeping-clone-up-to-date-pull" class="section level2">
-<h2>Keeping clone up to date (pull)</h2>
+<div id="keeping-clone-up-to-date-pull" class="section level3">
+<h3>Keeping clone up to date (pull)</h3>
+<p>GitHub Desktop can help you keep your copy of the <code>ml4e</code> repo up to date.</p>
+</div>
+<div id="resources" class="section level3">
+<h3>Resources</h3>
 </div>
 
-<&nbsp;
 <hr />
 <p style="text-align: center;">A work by <a href="https://www.itamarcaspi.net/">Itamar Caspi</a></p>
 
@@ -372,8 +474,6 @@ div.tocify {
     <a href="mailto:caspi.itamar@gmail.com" class="fa fa-envelope-o"></a>
     <a href="https://github.com/itamarcaspi/" class="fa fa-github"></a>
 </p>
-
-&nbsp;
 
 
 </div>

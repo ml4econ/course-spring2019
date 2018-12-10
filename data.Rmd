@@ -4,7 +4,7 @@ title: "Data"
 
 Throughout the course we will make use of he [`experimentdatar`](https://itamarcaspi.github.io/experimentdatar/) data package that contains publicly available datasets that were used in Susan Athey and Guido Imbens' course ["Machine Learning and Econometrics"](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) (AEA continuing Education, 2018). The datasets are conveniently packed for R users.
 
-## Installation
+### Installation
 
 You can install the **development** version from
 [GitHub](https://github.com/itamarcaspi/experimentdatar/)
@@ -14,7 +14,7 @@ You can install the **development** version from
 devtools::install_github("itamarcaspi/experimentdatar")
 ```
 
-## Usage
+### Usage
 
 Load `experimentdatar` and other required libraries
 ```{r data, message=FALSE}
@@ -38,7 +38,7 @@ dataDetails("social")
 ```
 
 
-## List of available datasets
+### List of available datasets
 
 * `charitable`: Data used for the paper "Does Price matter in charitable giving? Evidence from a large-Scale Natural Field experiment"  
 by Karlan and List (2007).
@@ -61,3 +61,7 @@ by Gerber, Green, and Larimer (2008).
 * `welfare`: Data for the paper "Modeling heterogeneous treatment effects in survey experiments with Bayesian Additive Regression Trees"  
 by Green and Kern (2012).
 
+
+### Resources
+
+* The [ExperimentData repository](https://github.com/gsbDBI/ExperimentData) where you can find the original as well as new datasets and more documentations.

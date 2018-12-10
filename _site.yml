@@ -19,6 +19,8 @@ navbar:
       href: faq.html
     - text: "Guides"
       menu:
+        - text: "R and RStudio"
+          href: RnRStudio.html
         - text: "Git and Github"
           href: git.html
         - text: "DataCamp Classroom"
