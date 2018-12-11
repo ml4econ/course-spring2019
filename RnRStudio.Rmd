@@ -16,7 +16,7 @@ Go to [RStudio](https://www.rstudio.com/) website and click on the download butt
 
 Two recommended settings:
 
-1. Go to **Tools -> General Options -> General** and set the Save workspace to .RData on exit to *NEVER*. This option improves the replicability of your projects since it causes you to start every project in a new R session, i.e., a clean environment and without any packages pre-loaded.
+1. Go to **Tools -> General Options -> General** and set the Save workspace to .RData on exit to *NEVER*. This option improves the replicability of your projects since it causes you to start every project in a new R session, i.e., a clean environment and without any packages pre-loaded. Remmeber: If you need your R script to start with `rm(list=ls())` than are doing it wrong!
 
 2. Go to **Tools -> General Options -> Git/SVN** and check the "Enable version control interface to RStudio projects" box. Next, make sure that the "Git executable" points to the git binary file (e.g., "C:/Program Files/Git/bin/git.exe").
 

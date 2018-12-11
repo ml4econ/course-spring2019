@@ -26,6 +26,8 @@ All computing in class will be conducted in R. Nevertheless, we encourage you to
 
 There are no required textbooks. All materials notes will be available on the class website. The following books may be useful references, however, note that they do not cover all the material we plan to cover in the class.
 
+### Machine Learning
+
 [**An Introduction to Statistical Learning with Applications in R**](http://www-bcf.usc.edu/~gareth/ISL) <br>
 *Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani* <br>
 This book provides a hands-on and R-based introduction to Machine Learning. <br/>
@@ -36,6 +38,7 @@ _PDF available online_
 This book covers the same topics as previous book (and more), however, it provides more rigorous treatment. <br>
 _PDF available online_
 
+### Causal Inference
 
 The following two textbooks provide graduate level treatment of causal inference in social sciences:
 
@@ -45,6 +48,8 @@ The following two textbooks provide graduate level treatment of causal inference
 
 [**Causal Inference for Statistics, Social, and Biomedical Sciences**](https://doi.org/10.1017/CBO9781139025751) <br/>
 *Guido Imbens and Donald Rubin*
+
+
 
 
 ## Grading

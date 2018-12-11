@@ -2,6 +2,14 @@
 title: "DataCamp for the Classroom"
 ---
 
+DataCamp is one of the most popular platforms for providing learning-by-doing online courses that relate to data science and engineering. One of DataCamp's main advantages is the fact that most courses include a large component of hands-on programming exercises, where the focus is on R, Python and SQL. 
+
+DataCamp for the Classroom offer of high-quality, self-paced content and straightforward, easy-to-use interface for both students and instructors. In particular, enrolling to our `ml4e` DataCamp for the Classroom account will enable you 100% free access to all of DataCamp's content, including their premium content. 
+
+During class, we will assign you with particular courses and chapters that will help you to catch-up with your R skills whenever you choose to. We encourage you to go over DataCamp's collection of courses and pick-up on the fly any skills that you think might help you going forward!
+
+The link to our DataCamp for the Classroom dashboard:
 
 https://www.datacamp.com/enterprise/machine-learning-for-economists
 
+Make sure to open a DataCamp account. Once you have an account, shoot me (Itamar) an email and I will add you as a member.
