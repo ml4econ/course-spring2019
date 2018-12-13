@@ -1,5 +1,6 @@
 ---
-title: "Machine Learning for Economists - 57750"
+title: "Machine Learning for Economists (HUJI 57750)"
+bibliography: bibliography.bib
 ---
 
   
@@ -10,7 +11,7 @@ img <- readPNG("figures/logo.png")
 grid.raster(img)
 ```
 
-Welcome to the "Machine Learning for Economists - 57750" repository!  
+Welcome to the "Machine Learning for Economists (HUJI 57750)" repository!  
 
 
 ## Course summary
@@ -19,7 +20,7 @@ The course will cover topics that range between machine learning (ML) and econom
 
 ## Computing
 
-All computing in class will be conducted in R. Nevertheless, we encourage you to tryout Python as well. In general though, the focus of the class will be on teaching Machine Learning concepts rather than how to use R or Python. 
+All computing in class will be conducted in R. Nevertheless, we encourage you to give Python a try as well. In general though, the focus of the class will be on teaching concepts rather than how to use R or Python. 
 
 
 ## Textbooks
@@ -38,6 +39,20 @@ _PDF available online_
 This book covers the same topics as previous book (and more), however, it provides more rigorous treatment. <br>
 _PDF available online_
 
+### Sparse Models
+
+The following two books presents a detailed account of recently developed approaches to estimatining models containing a large number of parameters, including the Lasso and versions of it: 
+
+[**Statistical Learning with Sparsity - The Lasso and Generalizations**](https://web.stanford.edu/~hastie/StatLearnSparsity/)  
+*Trevor Hastie, Robert Tibshirani, and Martin Wainwright*  
+In book contains an introduction to and a summary of the actively developing field of statistical learning with sparse models.  
+_PDF available online_
+
+[**Statistics for High-Dimensional Data - Methods, Theory and Applications**](https://www.springer.com/gp/book/9783642201912) 
+This book brings together methodological concepts, computational algorithms, a
+few applications and mathematical theory for high-dimensional statistics.  
+*Peter Buhlmann, and Sara van de Geer* 
+
 ### Causal Inference
 
 The following two textbooks provide graduate level treatment of causal inference in social sciences:
@@ -48,8 +63,6 @@ The following two textbooks provide graduate level treatment of causal inference
 
 [**Causal Inference for Statistics, Social, and Biomedical Sciences**](https://doi.org/10.1017/CBO9781139025751) <br/>
 *Guido Imbens and Donald Rubin*
-
-
 
 
 ## Grading

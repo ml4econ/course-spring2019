@@ -35,7 +35,6 @@ Note that all IDEs, RStudio included depend on R being installed.
 * Datacamp's [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) and [Working with the RStudio IDE (Part 1)](https://www.datacamp.com/courses/working-with-the-rstudio-ide-part-1) courses.
 * A [step-by-step guide](https://rforeval.com/courses/setup/) to get you started with R and RStudio.
 * [RStudio cheet sheets](https://www.rstudio.com/resources/cheatsheets/) where you can find, among others, an RStudio IDE and RMarkdown cheet sheets.
-
 * [Getting used to R RStudio and RMarkdown](https://rbasics.netlify.com/index.html).
 
 
