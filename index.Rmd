@@ -11,7 +11,7 @@ img <- readPNG("figures/logo.png")
 grid.raster(img)
 ```
 
-Welcome to the "Machine Learning for Economists (HUJI 57750)" repository!  
+Welcome to the **M**achine **L**earning for **E**conomists (HUJI 57750)" repository!  
 
 
 ## Course summary
@@ -27,7 +27,7 @@ All computing in class will be conducted in R. Nevertheless, we encourage you to
 
 There are no required textbooks. All materials notes will be available on the class website. The following books may be useful references, however, note that they do not cover all the material we plan to cover in the class.
 
-### Machine Learning
+#### __Machine Learning__
 
 [**An Introduction to Statistical Learning with Applications in R**](http://www-bcf.usc.edu/~gareth/ISL) <br>
 *Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani* <br>
@@ -39,7 +39,11 @@ _PDF available online_
 This book covers the same topics as previous book (and more), however, it provides more rigorous treatment. <br>
 _PDF available online_
 
-### Sparse Models
+[**Machine Learning - A Probablistic Prespective**](https://www.cs.ubc.ca/~murphyk/MLbook/)  
+*Kevin P. Murphy*  
+This book includes basic topics in statistical modeling, as well as advanced machine learning topics.  It comes with Matlab code to reproduce almost every figure and algorithm, discussed in the book.
+
+#### __Sparse Models__
 
 The following two books presents a detailed account of recently developed approaches to estimatining models containing a large number of parameters, including the Lasso and versions of it: 
 
@@ -48,12 +52,13 @@ The following two books presents a detailed account of recently developed approa
 In book contains an introduction to and a summary of the actively developing field of statistical learning with sparse models.  
 _PDF available online_
 
-[**Statistics for High-Dimensional Data - Methods, Theory and Applications**](https://www.springer.com/gp/book/9783642201912) 
+[**Statistics for High-Dimensional Data - Methods, Theory and Applications**](https://www.springer.com/gp/book/9783642201912)   
+*Peter Buhlmann, and Sara van de Geer*  
 This book brings together methodological concepts, computational algorithms, a
 few applications and mathematical theory for high-dimensional statistics.  
-*Peter Buhlmann, and Sara van de Geer* 
 
-### Causal Inference
+
+#### __Causal Inference__
 
 The following two textbooks provide graduate level treatment of causal inference in social sciences:
 
@@ -71,7 +76,7 @@ Homework assignments: **20%**; Final exam: **40%**; Final project: **40%**
 
 ## Discussions
 
-[Piazza discussion forum](https://piazza.com/huji.ac.il/spring2019/57750/home) (private) and #ml4e_huji on twitter (public).
+[Piazza discussion forum](https://piazza.com/huji.ac.il/spring2019/57750/home) (private) and #ml4e_HUJI on twitter (public).
 
 
 ## Feedback

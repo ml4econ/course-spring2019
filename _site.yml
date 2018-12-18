@@ -38,9 +38,9 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: flatly
+    theme: cosmo
     highlight: tango
     include:
-#      in_header: unconst.html
+#     in_header: unconst.html
       after_body: footer.html
     css: styles.css

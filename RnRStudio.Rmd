@@ -2,7 +2,7 @@
 title: "R and RStudio"
 ---
 
-To get started, you first need to install R. Next, we highly recommend using RStudio, a integrated development environment (IDE) that makes working with R much easier (RStudio's setup will be familiar for those of you who have worked with Matlab.). RStudio comes with the very handy `RProj` environment and provieds many built-in features that help facilitate data analysis and modelling tasks. In addition, RStudio integrates RMarkdown notebooks that and git, thus enabling us to efficiently work with version control. 
+To get started, you first need to install R. Next, we highly recommend using RStudio, an integrated development environment (IDE) that makes working with R much easier (RStudio's setup will be familiar for those of you who have prior experience with Matlab's IDE). RStudio comes with the very handy `RProj` environment and provieds many built-in features that help facilitate data analysis and modelling tasks. In addition, RStudio integrates RMarkdown notebooks that and git, thus enabling us to efficiently work with version control. 
 
 
 ### Install R

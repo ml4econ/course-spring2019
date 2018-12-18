@@ -7,12 +7,12 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
 
-## Instructors
+### Instructors
 
 <br>
 ![](figures/itamar.png) <br>
 **Itamar Caspi** <br>
-Senior Economist, *Bank of Israel* <br>
+Senior Economist, Research Department, *Bank of Israel* <br>
 [<i class="fa fa-home"></i> ](http://www.itamarcaspi.net/) 
 [<i class="fa fa-envelope"></i> ](mailto:caspi.itamar@gmail.com)
 [<i class="fa fa-github"></i> ](https://github.com/itamarcaspi/)
@@ -26,14 +26,14 @@ Head of Statistical Methodology Unit, *Bank of Israel* <br>
 [<i class="fa fa-envelope"></i>](mailto:ariel.mansura@boi.org.il)
 
 
-## Teaching Assistants
+### Teaching Assistants
 
 TBA
 
-## Guest Lecturers
+### Guest Lecturers
 
 TBA  
 
-## Office Hours
+### Office Hours
 
 By appointment  

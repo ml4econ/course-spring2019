@@ -84,7 +84,7 @@
      id="namedview828"
      showgrid="true"
      inkscape:zoom="0.58690695"
-     inkscape:cx="763.86599"
+     inkscape:cx="486.99075"
      inkscape:cy="537.59137"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -96,7 +96,7 @@
   </sodipodi:namedview>
   <path
      sodipodi:type="star"
-     style="fill:#ffffff;stroke:#d38d5f;stroke-width:28.603;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1;stroke-opacity:1"
+     style="fill:#5599ff;stroke:#002255;stroke-width:28.603;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;fill-opacity:1;stroke-opacity:1"
      id="path1393"
      sodipodi:sides="6"
      sodipodi:cx="460"
@@ -111,7 +111,7 @@
      d="m 460.00001,257.33325 329.08965,190.00001 -10e-6,380 -329.08966,190.00004 -329.08965,-190.00006 1e-5,-380 z" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:136px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00be9f;fill-opacity:1;stroke:#ffffff"
+     style="font-style:normal;font-weight:normal;font-size:136px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;"
      x="277.18851"
      y="875.04877"
      id="text1397"><tspan
@@ -119,7 +119,7 @@
        id="tspan1395"
        x="277.18851"
        y="875.04877"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:149.33332825px;font-family:'Cooper Black';-inkscape-font-specification:'Cooper Black, ';fill:#00be9f;fill-opacity:1">ml4e</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:149.33332825px;font-family:'Cooper Black';-inkscape-font-specification:'Cooper Black, ';fill:#ffffff;fill-opacity:1;stroke:#ffffff;">ml4e</tspan></text>
   <image
      width="280"
      height="310"
