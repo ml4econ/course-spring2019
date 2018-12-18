@@ -11,7 +11,7 @@ img <- readPNG("figures/logo.png")
 grid.raster(img)
 ```
 
-Welcome to the **M**achine **L**earning for **E**conomists (HUJI 57750)" repository!  
+Welcome to `ml4e` - the **M**achine **L**earning for **E**conomists (HUJI 57750) repository!  
 
 
 ## Course summary
