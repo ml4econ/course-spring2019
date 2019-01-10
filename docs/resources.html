@@ -11,7 +11,7 @@
 
 
 
-<title>R and RStudio</title>
+<title>Resources</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -430,42 +430,62 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">R and RStudio</h1>
+<h1 class="title toc-ignore">Resources</h1>
 
 </div>
 
 
-<p>To get started, you first need to install R. Next, we highly recommend using RStudio, an integrated development environment (IDE) that makes working with R much easier (RStudio’s setup will be familiar for those of you who have prior experience with Matlab’s IDE). RStudio comes with the very handy <code>RProj</code> environment and provides many built-in features that help facilitate data analysis and modelling tasks. In addition, RStudio integrates RMarkdown notebooks that and git, thus enabling us to efficiently work with version control.</p>
-<div id="install-r" class="section level3">
-<h3>Install R</h3>
-<p>Go to <a href="https://cloud.r-project.org/">CRAN</a> and click on the download link that suits your OS.</p>
+<p>There are no required textbooks. All materials notes will be available on the class website. The following books may be useful references, however, note that they do not cover all the material we plan to cover in the class.</p>
+<div id="machine-learning" class="section level4">
+<h4><strong>Machine Learning</strong></h4>
+<p><a href="http://www-bcf.usc.edu/~gareth/ISL"><strong>An Introduction to Statistical Learning with Applications in R</strong></a> <br> <em>Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani</em> <br> This book provides a hands-on and R-based introduction to Machine Learning. <br/> <em>PDF available online</em></p>
+<p><a href="http://statweb.stanford.edu/~tibs/ElemStatLearn"><strong>Elements of Statistical Learning</strong></a> <br> <em>Trevor Hastie, Robert Tibshirani and Jerome Friedman</em> <br/> This book covers the same topics as previous book (and more), however, it provides more rigorous treatment. <br> <em>PDF available online</em></p>
+<p><a href="https://www.cs.ubc.ca/~murphyk/MLbook/"><strong>Machine Learning - A Probablistic Prespective</strong></a><br />
+<em>Kevin P. Murphy</em><br />
+This book includes basic topics in statistical modeling, as well as advanced machine learning topics. It comes with Matlab code to reproduce almost every figure and algorithm, discussed in the book.</p>
 </div>
-<div id="install-rstudio" class="section level3">
-<h3>Install RStudio</h3>
-<p>Go to <a href="https://www.rstudio.com/">RStudio</a> website and click on the download button. The free version is more than what you need for this course.</p>
-<p>Three recommended settings:</p>
-<ol style="list-style-type: decimal">
-<li><p>Always use a project-oriented workflow, where each task, assignment, etc. is a standalone project. Remember: If you need your R script to start with<code>setwd()</code> and <code>rm(list=ls())</code> than are <a href="https://www.tidyverse.org/articles/2017/12/workflow-vs-script/">doing something wrong</a>!</p></li>
-<li><p>Go to <strong>Tools -&gt; General Options -&gt; General</strong> and set the Save workspace to .RData on exit to <em>NEVER</em>. This option improves the reproducability of your projects since it causes you to start every project in a new R session, i.e., a clean environment without any objects or packages pre-loaded.</p></li>
-<li><p>Go to <strong>Tools -&gt; General Options -&gt; Git/SVN</strong> and check the “Enable version control interface to RStudio projects” box. Next, make sure that the “Git executable” points to the git binary file (e.g., “C:/Program Files/Git/bin/git.exe”).</p></li>
-</ol>
+<div id="sparse-models" class="section level4">
+<h4><strong>Sparse Models</strong></h4>
+<p>The following two books presents a detailed account of recently developed approaches to estimatining models containing a large number of parameters, including the Lasso and versions of it:</p>
+<p><a href="https://web.stanford.edu/~hastie/StatLearnSparsity/"><strong>Statistical Learning with Sparsity - The Lasso and Generalizations</strong></a><br />
+<em>Trevor Hastie, Robert Tibshirani, and Martin Wainwright</em><br />
+In book contains an introduction to and a summary of the actively developing field of statistical learning with sparse models.<br />
+<em>PDF available online</em></p>
+<p><a href="https://www.springer.com/gp/book/9783642201912"><strong>Statistics for High-Dimensional Data - Methods, Theory and Applications</strong></a><br />
+<em>Peter Buhlmann, and Sara van de Geer</em><br />
+This book brings together methodological concepts, computational algorithms, a few applications and mathematical theory for high-dimensional statistics.</p>
 </div>
-<div id="alternativs-to-r-and-rstudio" class="section level3">
-<h3>Alternativs to R and RStudio</h3>
-<p>If for some reason you insist on not using RStudio, we can suggest a couple alternative open-source IDEs:</p>
-<ol style="list-style-type: decimal">
-<li><a href="https://jupyterlab.readthedocs.io/en/stable/#">JupyterLab</a> coupled with the <a href="https://github.com/IRkernel/IRkernel">IRkernel</a> extension.</li>
-<li><a href="https://atom.io/">Atom</a> coupled with the <a href="https://atom.io/packages/ide-r">ide-r</a> and <a href="https://atom.io/packages/hydrogen">Hydrogen</a> extensions.</li>
-</ol>
-<p>Note that all IDEs, RStudio included depend on R being installed.</p>
+<div id="causal-inference" class="section level4">
+<h4><strong>Causal Inference</strong></h4>
+<p>The following two textbooks provide a graduate level treatment of causal inference in social sciences:</p>
+<p><a href="http://www.mostlyharmlesseconometrics.com/"><strong>Mostly Harmless Econometrics</strong></a> <br/> <em>Joshua Angrist and Jorn-Steffen Pischke</em></p>
+<p><a href="https://doi.org/10.1017/CBO9781139025751"><strong>Causal Inference for Statistics, Social, and Biomedical Sciences</strong></a> <br/> <em>Guido Imbens and Donald Rubin</em></p>
+<p>Pearl and Mackenzie’s book is a must for anyone intersted in causalality. It lays the foundations of Pearl’s approach to causal inference in plain English and graphs with very few equations.</p>
+<p><a href="https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X"><strong>The Book of Why: The New Science of Cause and Effect</strong></a><br />
+<em>Judea Pearl and Dana Mackenzie</em></p>
 </div>
-<div id="resources" class="section level3">
-<h3>Resources</h3>
+<div id="text-mining" class="section level4">
+<h4><strong>Text Mining</strong></h4>
+<p><a href="https://www.tidytextmining.com/"><strong>Text Mining with R - A Tidy Approach</strong></a><br />
+<em>Julia Silge and David Robinson</em><br />
+The go-to textbook for those interested in textmining with R.</p>
+</div>
+<div id="economists-to-follow" class="section level2">
+<h2>Economists to follow</h2>
 <ul>
-<li>Datacamp’s <a href="https://www.datacamp.com/courses/free-introduction-to-r">Introduction to R</a> and <a href="https://www.datacamp.com/courses/working-with-the-rstudio-ide-part-1">Working with the RStudio IDE (Part 1)</a> courses.</li>
-<li>A <a href="https://rforeval.com/courses/setup/">step-by-step guide</a> to get you started with R and RStudio.</li>
-<li><a href="https://www.rstudio.com/resources/cheatsheets/">RStudio cheat sheets</a> where you can find, among others, an RStudio IDE and RMarkdown cheat sheets.</li>
-<li><a href="https://rbasics.netlify.com/index.html">Getting used to R RStudio and RMarkdown</a>.</li>
+<li>(Susan Athey)[<a href="https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey" class="uri">https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey</a>] (Stanford)<br />
+</li>
+<li>(Guido Imbens)[<a href="https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens" class="uri">https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens</a>] (Stanford)<br />
+</li>
+<li><a href="https://www.chicagobooth.edu/faculty/directory/m/sendhil-mullainathan">Sendhil Mullainathan</a> (Chicago)<br />
+</li>
+<li><a href="http://www.mit.edu/~vchern/">Victor Chernozhukov</a> (MIT)<br />
+</li>
+<li><a href="https://faculty.fuqua.duke.edu/~abn5/belloni-index.html">Alexandre Belloni</a> (Duke)<br />
+</li>
+<li><a href="https://maxkasy.github.io/home/">Maximilian Kasy</a> (Harvard)<br />
+</li>
+<li><a href="https://scholar.harvard.edu/spiess">Jann Spiess</a> (Harvard)</li>
 </ul>
 </div>
 

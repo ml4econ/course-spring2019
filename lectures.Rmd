@@ -8,16 +8,16 @@ We will move at a pace dictated by class discussions. Please check this page oft
 | Week                  | Who                | Topic                                                                          |
 |:----------------------|:--------------------|:---------------------------------------------------------------------------------|
 | [**1**](#week-1)      | Itamar | Course Overview |
-| [**2**](#week-2)      | Itamar| Introduction to R, Rstudio, Rproj, and GitHub |
-| [**3**](#week-3)      | Ariel | Regression and K Nearest Neighbors|
-| [**4**](#week-4)      | Ariel | Classification |
-| [**5**](#week-5)      | Ariel | Dimenssionality Reduction |
-| [**6**](#week-6)      | Ariel | Descision Trees and Random Forests| 
-| [**7**](#week-7)      | Ariel | Unsupervised Learning|
+| [**2**](#week-2)      | Itamar | Introduction to R, Rstudio, Rproj, and GitHub |
+| [**3**](#week-3)      | Ariel  | Regression and K Nearest Neighbors|
+| [**4**](#week-4)      | Ariel  | Classification |
+| [**5**](#week-5)      | Ariel  | Dimenssionality Reduction |
+| [**6**](#week-6)      | Ariel  | Descision Trees and Random Forests| 
+| [**7**](#week-7)      | Ariel  | Unsupervised Learning|
 | [**8**](#week-8)      | Itamar | Prediction in Aid of Estimation I - Average Treatment Effects |
 | [**9**](#week-9)      | Itamar | Prediction in Aid of Estimation II - Heterogenous Treatment Effects |
 | [**10**](#week-10)    | Itamar | Prediction Policy Problems |
-| [**11**](#week-11)    | Itamar | Robustness Analysis |
+| [**11**](#week-11)    | Itamar | Text Analysis |
 | [**12**](#week-12)    | Itamar | The Economics of AI|
 
 

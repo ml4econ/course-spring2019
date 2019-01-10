@@ -1,31 +1,10 @@
 ---
-title: "Machine Learning for Economists (HUJI 57750)"
-bibliography: bibliography.bib
+title: "Resources"
 ---
 
-  
-```{r fig.width=1.5, fig.height=1.5,echo=FALSE}
-library(png)
-library(grid)
-img <- readPNG("figures/logo.png")
-grid.raster(img)
-```
-
-Welcome to __ml4econ__, the **M**achine **L**earning for **E**conomists (HUJI 57750) repository!  
-
-
-## Course summary
-
-The course will cover topics that range between machine learning (ML) and econometrics. In particular, we will discuss concepts from the world of ML that can potentially contribute to empirical economics. The course will cover leading machine learning (supervised and unsupervised) methods, with an emphasis on the challenges and opportunities of integrating these methods in empirical economics, and the relevance of ML to policy analysis and causal inference. The various topics are illustrated through applications, reading empirical articles, and doing applied work.
-
-## Computing
-
-All computing in class will be conducted in R. Nevertheless, we encourage you to give Python a try as well. In general though, the focus of the class will be on teaching concepts rather than how to use R or Python. 
-
+There are no required textbooks. All materials notes will be available on the class website. The following books may be useful references, however, note that they do not cover all the material we plan to cover in the class.
 
 ## Textbooks
-
-There are no required textbooks. All materials notes will be available on the class website. The following books may be useful references, however, note that they do not cover all the material we plan to cover in the class.
 
 #### __Machine Learning__
 
@@ -60,27 +39,38 @@ few applications and mathematical theory for high-dimensional statistics.
 
 #### __Causal Inference__
 
-The following two textbooks provide graduate level treatment of causal inference in social sciences:
+The following two textbooks provide a graduate level treatment of causal inference in social sciences:
 
 [**Mostly Harmless Econometrics**](http://www.mostlyharmlesseconometrics.com/) <br/>
 *Joshua Angrist and Jorn-Steffen Pischke*
 
-
 [**Causal Inference for Statistics, Social, and Biomedical Sciences**](https://doi.org/10.1017/CBO9781139025751) <br/>
 *Guido Imbens and Donald Rubin*
 
+Pearl and Mackenzie's book is a must for anyone intersted in causalality. It lays the foundations of Pearl's approach to causal inference in plain English and graphs with very few equations.
 
-## Grading
-
-Homework assignments: **20%**; Final exam: **40%**; Final project: **40%**
-
-## Discussions
-
-[Piazza discussion forum](https://piazza.com/huji.ac.il/spring2019/57750/home) (private) and #ml4e_HUJI on twitter (public).
+[**The Book of Why: The New Science of Cause and Effect**](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X)  
+_Judea Pearl and Dana Mackenzie_
 
 
-## Feedback
+#### __Text Mining__
 
-Your feedback is important! Please feel free to share with us
-your comments, concerns and suggestions on the course in
-person, email or anonymously [here](http://www.admonymous.com/ml4e_huji).
+[**Text Mining with R - A Tidy Approach**](https://www.tidytextmining.com/)  
+_Julia Silge and David Robinson_  
+The go-to textbook for those interested in textmining with R.
+
+
+## Economists to follow
+
+* [Susan Athey](https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey) (Stanford)  
+* [Guido Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens) (Stanford)  
+* [Sendhil Mullainathan](https://www.chicagobooth.edu/faculty/directory/m/sendhil-mullainathan)   (Chicago)  
+* [Victor Chernozhukov](http://www.mit.edu/~vchern/) (MIT)  
+* [Alexandre Belloni](https://faculty.fuqua.duke.edu/~abn5/belloni-index.html) (Duke)  
+* [Maximilian Kasy](https://maxkasy.github.io/home/) (Harvard)  
+* [Jann Spiess](https://scholar.harvard.edu/spiess) (Harvard)  
+
+
+
+
+
