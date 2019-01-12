@@ -1,2 +1,3 @@
-## Machine Learning for Economists - 57750 (Spring 2019 @ HUJI)
-A repository for the "Machine Learninig for Economicsts" @ HUJI Economics Department.
+## 55750: Machine Learning for Economists
+### Hebrew University - Spring 2019
+A repository for the "Machine Learninig for Economicsts" course.
