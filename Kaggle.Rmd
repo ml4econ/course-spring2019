@@ -7,21 +7,21 @@ title: "In-class Kaggle Competition"
 
 [Kaggle](www.kaggle.com) is a huge data science community where machine learning practitioners around the world compete against each other in solving prediction problems. The data sets used in Kaggle competitions are uploaded by public and private companies (e.g., Google, Facebook) as well as by government agencies (e.g., the U. S. Department of Homeland Security). 
   
-A ``Kaggler'' wins a competition if her algorithm is the most accurate on a particular data set. Winners receive financial reward, job offers, and recognition from the community. 
+A "Kaggler" wins a competition if her algorithm is the most accurate on a particular data set. Winners receive financial reward, job offers, and recognition from the community. 
   
 Kaggle competitions are one of the best places to practice your ML skills and learn about state-of-the-art ML method. for instance, you can learn a lot about the tricks of the trade by reading interviews with past winners.
 
 
 
-### `ml4e` Kaggle Competition
+### `ml4econ` Kaggle Competition
 
-One of your tasks in this course will be a Kaggle competition. In this competition, course participants will rely on the "Boston Housing Data" to train and test machine learning models learned in the course. In particular, you will be required to apply the tools introduced in the course in order to predict the median house value based on a set of area specific housing market features.
+One of your tasks in this course will be a Kaggle competition. In this competition, you will rely on the "Boston Housing Data" to train and test machine learning models learned in the course. In particular, you will be required to apply the tools introduced in the course in order to predict the median house value based on a set of area specific housing market features. For more details, please visit the competition's [website](https://www.kaggle.com/t/97eb0edcbe7c406882c7c067076bedd3).  
 
 
 ### Getting Started
 
 1. Visit to [www.kaggle.com](www.kaggle.com) and open an account.
-2. Go to the ml4e_huji  competition webpage: 
+2. Go to the ml4econ competition [webpage](https://www.kaggle.com/t/97eb0edcbe7c406882c7c067076bedd3).
 3. Review competition details - Objectives, deadline, data, evaluation, submission rules, etc. 
 
 
@@ -47,3 +47,4 @@ The competition's final ranking is based on how well individuals perform on the 
 
 
 ### Resources
+

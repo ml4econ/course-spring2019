@@ -1,5 +1,6 @@
 ---
-title: "Machine Learning for Economists (HUJI 57750)"
+title: "55750: Machine Learning for Economists"
+subtitle: "Hebrew University - Spring 2019"
 bibliography: bibliography.bib
 ---
 
@@ -11,7 +12,7 @@ img <- readPNG("figures/logo.png")
 grid.raster(img)
 ```
 
-Welcome to __ml4econ__, the **M**achine **L**earning for **E**conomists (HUJI 57750) repository!  
+Welcome to __ml4econ__, the **M**achine **L**earning for **Econ**omists coures' repository!  
 
 
 ## Course summary
@@ -23,60 +24,14 @@ The course will cover topics that range between machine learning (ML) and econom
 All computing in class will be conducted in R. Nevertheless, we encourage you to give Python a try as well. In general though, the focus of the class will be on teaching concepts rather than how to use R or Python. 
 
 
-## Textbooks
-
-There are no required textbooks. All materials notes will be available on the class website. The following books may be useful references, however, note that they do not cover all the material we plan to cover in the class.
-
-#### __Machine Learning__
-
-[**An Introduction to Statistical Learning with Applications in R**](http://www-bcf.usc.edu/~gareth/ISL) <br>
-*Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani* <br>
-This book provides a hands-on and R-based introduction to Machine Learning. <br/>
-_PDF available online_
-
-[**Elements of Statistical Learning**](http://statweb.stanford.edu/~tibs/ElemStatLearn) <br>
-*Trevor Hastie, Robert Tibshirani and Jerome Friedman* <br/>
-This book covers the same topics as previous book (and more), however, it provides more rigorous treatment. <br>
-_PDF available online_
-
-[**Machine Learning - A Probablistic Prespective**](https://www.cs.ubc.ca/~murphyk/MLbook/)  
-*Kevin P. Murphy*  
-This book includes basic topics in statistical modeling, as well as advanced machine learning topics.  It comes with Matlab code to reproduce almost every figure and algorithm, discussed in the book.
-
-#### __Sparse Models__
-
-The following two books presents a detailed account of recently developed approaches to estimatining models containing a large number of parameters, including the Lasso and versions of it: 
-
-[**Statistical Learning with Sparsity - The Lasso and Generalizations**](https://web.stanford.edu/~hastie/StatLearnSparsity/)  
-*Trevor Hastie, Robert Tibshirani, and Martin Wainwright*  
-In book contains an introduction to and a summary of the actively developing field of statistical learning with sparse models.  
-_PDF available online_
-
-[**Statistics for High-Dimensional Data - Methods, Theory and Applications**](https://www.springer.com/gp/book/9783642201912)   
-*Peter Buhlmann, and Sara van de Geer*  
-This book brings together methodological concepts, computational algorithms, a
-few applications and mathematical theory for high-dimensional statistics.  
-
-
-#### __Causal Inference__
-
-The following two textbooks provide graduate level treatment of causal inference in social sciences:
-
-[**Mostly Harmless Econometrics**](http://www.mostlyharmlesseconometrics.com/) <br/>
-*Joshua Angrist and Jorn-Steffen Pischke*
-
-
-[**Causal Inference for Statistics, Social, and Biomedical Sciences**](https://doi.org/10.1017/CBO9781139025751) <br/>
-*Guido Imbens and Donald Rubin*
-
-
 ## Grading
 
 Homework assignments: **20%**; Final exam: **40%**; Final project: **40%**
 
+
 ## Discussions
 
-[Piazza discussion forum](https://piazza.com/huji.ac.il/spring2019/57750/home) (private) and #ml4e_HUJI on twitter (public).
+[Piazza discussion forum](https://piazza.com/huji.ac.il/spring2019/57750/home) (private) and #ml4econ on twitter (public).
 
 
 ## Feedback

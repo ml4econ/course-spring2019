@@ -8,7 +8,7 @@ We will move at a pace dictated by class discussions. Please check this page oft
 | Week                  | Who                | Topic                                                                          |
 |:----------------------|:--------------------|:---------------------------------------------------------------------------------|
 | [**1**](#week-1)      | Itamar | Course Overview |
-| [**2**](#week-2)      | Itamar | Introduction to R, Rstudio, Rproj, and GitHub |
+| [**2**](#week-2)      | Itamar | Introduction to R, Rstudio, and git |
 | [**3**](#week-3)      | Ariel  | Regression and K Nearest Neighbors|
 | [**4**](#week-4)      | Ariel  | Classification |
 | [**5**](#week-5)      | Ariel  | Dimenssionality Reduction |

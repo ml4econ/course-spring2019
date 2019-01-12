@@ -1,10 +1,10 @@
 url: https://itamarcaspi.github.io/ml4e
 
-name: "ml4e"
+name: "ml4econ"
 output_dir: "docs"
 
 navbar:
-  title: "#ml4e_HUJI"
+  title: "#ml4econ"
   type: inverse
   left:
     - icon: fa-home
@@ -15,6 +15,8 @@ navbar:
       href: lectures.html
     - text: "Data"
       href: data.html
+    - text: "Resources"
+      href: resources.html
     - text: "FAQ"
       href: faq.html
     - text: "Guides"
