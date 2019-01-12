@@ -13,10 +13,10 @@ navbar:
       href: people.html
     - text: "Lectures"
       href: lectures.html
-    - text: "Data"
-      href: data.html
     - text: "Resources"
       href: resources.html
+    - text: "News"
+      href: news.html
     - text: "FAQ"
       href: faq.html
     - text: "Guides"
@@ -27,6 +27,8 @@ navbar:
           href: git.html
         - text: "DataCamp Classroom"
           href: datacamp.html
+        - text: "Data"
+          href: data.html
         - text: "Kaggle In-Class"
           href: kaggle.html
   right:
