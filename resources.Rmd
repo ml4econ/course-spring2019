@@ -2,7 +2,7 @@
 title: "Resources"
 ---
 
-There are no required textbooks. All materials notes will be available on the class website. The following books may be useful references, however, note that they do not cover all the material we plan to cover in the class.
+__NOTE:__ There are no required textbooks. All materials notes will be available on the [class website](https://itamarcaspi.github.io/ml4econ/lectures.html). The following references and links may be useful. However, note that they do not cover all the material we plan to cover in the class.
 
 ## Textbooks
 
@@ -69,17 +69,18 @@ Imbens).
 Lecture, 2017.  
 
 
-## Economists to follow
+## Economists (mostly) to follow
 
 * [Susan Athey](https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey) (Stanford)  
 * [Alexandre Belloni](https://faculty.fuqua.duke.edu/~abn5/belloni-index.html) (Duke)  
 * [Victor Chernozhukov](http://www.mit.edu/~vchern/) (MIT)  
+* [Francis Diebols](https://www.sas.upenn.edu/~fdiebold/)  
 * [Christial Hansen](https://voices.uchicago.edu/christianhansen/) (Chicago)
 * [Guido Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens) (Stanford)  
 * [Maximilian Kasy](https://maxkasy.github.io/home/) (Harvard)  
 * [Sendhil Mullainathan](https://www.chicagobooth.edu/faculty/directory/m/sendhil-mullainathan)   (Chicago)  
 * [Jann Spiess](https://scholar.harvard.edu/spiess) (Harvard)  
-
+* [Stefan Wager](https://web.stanford.edu/~swager/index.html)  
 
 
 

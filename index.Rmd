@@ -12,26 +12,41 @@ img <- readPNG("figures/logo.png")
 grid.raster(img)
 ```
 
-Welcome to __ml4econ__, the **M**achine **L**earning for **Econ**omists coures repository!  
+Welcome to __ml4econ__, the **M**achine **L**earning for **Econ**omists course repository!  
 
 
 ## Course summary
 
 The course will cover topics that range between machine learning (ML) and econometrics. In particular, we will discuss concepts from the world of ML that can potentially contribute to empirical economics. The course will cover leading machine learning (supervised and unsupervised) methods, with an emphasis on the challenges and opportunities of integrating these methods in empirical economics, and the relevance of ML to policy analysis and causal inference. The various topics are illustrated through applications, reading empirical articles, and doing applied work.
 
+The first, part of the course will focus on Supervised (predictive) and Unsupervised Machine Learning methods. Examples include Regression and K Nearest Neighbors, Classification, Dimensionality Reduction, Decision Trees and Random Forests, Principal Component Analysis and Clustering Analysis. You will learn what techniques to apply and why.
+
+In the second and biggest part of the class, you will learn about the relation between Machine Learning and Econometrics. You will learn about the difference between predicting and explaining, how machine learning methods aid in estimating causality and treatment effects i high-dimensional settings, and how unsupervised learning method can help us to generate variables. Examples include Causal Trees and Forests, Double Robust Machine Learning, and Text Mining with applications to data sets used to study economic phenomena.
+
 ## Computing
 
-All computing in class will be conducted in R. Nevertheless, we encourage you to give Python a try as well. In general though, the focus of the class will be on teaching concepts rather than how to use R or Python. 
+All computing in class will be conducted in R. Nevertheless,
+
++ Though we will provide a brief introduction to R, the focus of the class will be on teaching concepts rather than how to use R.  
+
++ We do encourage you to try out other programming languages (especially Python). However, note that we will be able to provide limited support for languages other than R.  
 
 
-## Grading
+## Evaluation
 
 Homework assignments: **20%**; Final exam: **40%**; Final project: **40%**
 
 
 ## Discussions
 
-[Piazza discussion forum](https://piazza.com/huji.ac.il/spring2019/57750/home) (private) and #ml4econ on twitter (public).
+Google is typically the best first place to look for computational related solutions. Always assume that you are not the first one to encounter this problem!
+
+We will be using [Piazza](http://piazza.com/) for class discussion. Please post any questions that you may have there, rather than emailing us. All of your classmates will benefit from the public discussions.
+
+You can access our Piazza discussion forum [here](https://piazza.com/huji.ac.il/spring2019/57750/home). You can enroll to our course Piazza page [here](https://piazza.com/huji.ac.il/spring2019/57750/).
+
+
+Occasionally we will post related stuff on twitter under the hashtag __#ml4econ__.
 
 
 ## Feedback
