@@ -4,6 +4,18 @@ title: "Resources"
 
 __NOTE:__ There are no required textbooks. All materials notes will be available on the [class website](https://itamarcaspi.github.io/ml4econ/lectures.html). The following references and links may be useful. However, note that they do not cover all the material we plan to cover in the class.
 
+## Surveys
+
+* Athey, S. (2018). [The impact of machine learning on economics](https://www.nber.org/chapters/c14009.pdf). In _The Economics of Artificial Intelligence: An Agenda_. University of Chicago Press.  
+
+* Athey, S., & Imbens, G. W. (2017). [The state of applied econometrics: Causality and policy evaluation](https://www.aeaweb.org/articles?id=10.1257/jep.31.2.3). _Journal of Economic Perspectives_, 31(2), 3-32.  
+
+* Belloni, A., Chernozhukov, V., & Hansen, C. (2014). [High-dimensional methods and inference on structural and treatment effects](https://www.aeaweb.org/articles?id=10.1257/jep.28.2.29). _Journal of Economic Perspectives_, 28(2), 29-50.  
+
+* Mullainathan, S., & Spiess, J. (2017). [Machine learning: an applied econometric approach](https://www.aeaweb.org/articles?id=10.1257/jep.31.2.87). _Journal of Economic Perspectives_, 31(2), 87-106.  
+
+* Varian, H. R. (2014). [Big data: New tricks for econometrics](https://www.aeaweb.org/articles?id=10.1257/jep.28.2.3). _Journal of Economic Perspectives_, 28(2), 3-28.  
+
 ## Textbooks
 
 #### __Machine Learning__
