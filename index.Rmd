@@ -27,9 +27,9 @@ In the second and biggest part of the class, you will learn about the relation b
 
 All computing in class will be conducted in R. Nevertheless,
 
-+ Though we will provide a brief introduction to R, the focus of the class will be on teaching concepts rather than how to use R.  
+* Though we will provide a brief introduction to R, the focus of the class will be on teaching concepts rather than how to use R.  
 
-+ We do encourage you to try out other programming languages (especially Python). However, note that we will be able to provide limited support for languages other than R.  
+* We do encourage you to try out other programming languages (especially Python). However, note that we will be able to provide limited support for languages other than R.  
 
 
 ## Evaluation
@@ -53,4 +53,4 @@ Occasionally we will post related stuff on twitter under the hashtag __#ml4econ_
 
 Your feedback is important! Please feel free to share with us
 your comments, concerns and suggestions on the course in
-person, email or anonymously [here](http://www.admonymous.com/ml4e_huji).
+person or by [email](https://itamarcaspi.github.io/ml4econ/people.html).

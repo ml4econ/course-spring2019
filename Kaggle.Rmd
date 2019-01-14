@@ -48,3 +48,4 @@ The competition's final ranking is based on how well individuals perform on the 
 
 ### Resources
 
+* Dataquest tutorial: [Kaggle Fundamentals: The Titanic Competition](https://www.dataquest.io/blog/kaggle-fundamentals/)  

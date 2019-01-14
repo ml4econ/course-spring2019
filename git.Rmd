@@ -2,7 +2,7 @@
 title: "Git and GitHub"
 ---
 
-Git is the *de facto* go-to solution for version control. Think of "track changes" on setroids for code files. GitHub is the leading cloud hosting service of Git repositories. It is kind of a Dropbox on steroids (sorry for repeating a metaphore) for programmers, that enabels efficient code sharing and collaobration.
+Git is the *de facto* go-to solution for version control. Think of "track changes" on steroids for code files. GitHub is the leading cloud hosting service of Git repositories, that enables efficient and transparent code sharing and collaboration.
 
 
 ### Git installation
@@ -14,7 +14,7 @@ Run the installer and follow its instructions to install the software. Usually t
 
 ### Open a GitHub account
   
-Go [**here**](http://github.com) to register an account if you have not got one. It is highly recemmended to choose a straightforward username (e.g., *itamarcaspi* instead of *icaspi99*) so that your are easily found.
+Go [**here**](http://github.com) to register an account if you have not got one. It is highly recommended to choose a straightforward username (e.g., *itamarcaspi* instead of *icaspi99*) so that your are easily found.
 
 ### GitHub Desktop installation
 
@@ -22,16 +22,16 @@ GitHub Desktop provides a straightforward GUI interface to git and GitHub. It en
 
 Go [**here**](https://desktop.github.com/) to download GitHub Desktop, and follow the installation guide. 
 
-### Cloning the `ml4e` repository
+### Cloning the `ml4econ` repository
 
-Once git, GitHub and GitHub desktop are all set, open GitHub Desktop and go [**here**]() to open our `ml4e` course repository. Once in the repository, klick on the green **Clone or download** button (top right, above the folders and files pane). If done correctly, GitHub Desktop should prompt you with a request for a local destination for the `ml4e` repository. Choose where you want to install your local copy of the `ml4e` repo, click OK, and we're done. 
+Once git, GitHub and GitHub desktop are all set, open GitHub Desktop and go [**here**]() to open our `ml4econ` course repository. Once in the repository, click on the green **Clone or download** button (top right, above the folders and files pane). If done correctly, GitHub Desktop should prompt you with a request for a local destination for the `ml4econ` repository. Choose where you want to install your local copy of the `ml4econ` repo, click OK, and we're done. 
 
-### Keeping your local `ml4e` repo synced
+### Keeping your local `ml4econ` repo synced
 
-GitHub Desktop can help you keep your copy of the `ml4e` repo up to date by following these steps:
+GitHub Desktop can help you keep your copy of the `ml4econ` repo up to date by following these steps:
 
 1. Open GitHub Desktop.
-2. Set the Current repository to `ml4e`.
+2. Set the Current repository to `ml4econ`.
 3. Click on the "Fetch origin" button.
 4. If it says Pull with a number next to it (e.g., "Pull" +1), click on it and you're done.
 

@@ -24,7 +24,7 @@ This book includes basic topics in statistical modeling, as well as advanced mac
 
 #### __Sparse Models__
 
-The following two books presents a detailed account of recently developed approaches to estimatining models containing a large number of parameters, including the Lasso and versions of it: 
+The following two books presents a detailed account of recently developed approaches to estimating models containing a large number of parameters, including the Lasso and versions of it: 
 
 [**Statistical Learning with Sparsity - The Lasso and Generalizations**](https://web.stanford.edu/~hastie/StatLearnSparsity/)  
 *Trevor Hastie, Robert Tibshirani, and Martin Wainwright*  
@@ -49,7 +49,7 @@ The following two textbooks provide a graduate level treatment of causal inferen
 
 [**The Book of Why: The New Science of Cause and Effect**](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X)  
 _Judea Pearl and Dana Mackenzie_
-Pearl and Mackenzie's book is a must for anyone intersted in causalality. It lays the foundations of Pearl's approach to causal inference in plain English and graphs with very few equations.
+Pearl and Mackenzie's book is a must for anyone interested in causality. It lays the foundations of Pearl's approach to causal inference in plain English and graphs with very few equations.
 
 
 #### __Text Mining__
@@ -65,8 +65,9 @@ The go-to textbook for those interested in textmining with R.
 Imbens).  
 + NBER 2015 Method Lectures, [”Lectures on Machine Learning”](https://www.nber.org/econometrics_minicourse_2015/) (Athey and Imbens).  
 + NBER 2013 Method Lectures, ["Econometric Methods for High-Dimensional Data""](https://www.nber.org/econometrics_minicourse_2013/) (Victor Chernozhukov, Matthew Gentzkow, Christian Hansen, Jesse Shapiro, Matthew Taddy).  
-+ [”Machine Learning and Prediction in Economics and Finance”](https://www.youtube.com/watch?v=xl3yQBhI6vY), Mullainathan, AFA
++ [”Machine Learning and Prediction in Economics and Finance”](https://www.youtube.com/watch?v=xl3yQBhI6vY), Sendhil Mullainathan, AFA
 Lecture, 2017.  
++ ["The Impact of Machine Learning on Econometrics and Economics" ](https://www.aeaweb.org/webcasts/2019/aea-afa-joint-luncheon-impact-of-machine-learning), Susan Athey, AEA Lecture, 2019.
 
 
 ## Economists (mostly) to follow
