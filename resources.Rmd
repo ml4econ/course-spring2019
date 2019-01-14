@@ -2,8 +2,6 @@
 title: "Resources"
 ---
 
-__NOTE:__ There are no required textbooks. All materials notes will be available on the [class website](https://itamarcaspi.github.io/ml4econ/lectures.html). The following references and links may be useful. However, note that they do not cover all the material we plan to cover in the class.
-
 ## Surveys
 
 * Athey, S. (2018). [The impact of machine learning on economics](https://www.nber.org/chapters/c14009.pdf). In _The Economics of Artificial Intelligence: An Agenda_. University of Chicago Press.  
@@ -18,19 +16,21 @@ __NOTE:__ There are no required textbooks. All materials notes will be available
 
 ## Textbooks
 
+__NOTE:__ There are no required textbooks. All materials notes will be available on the [class website](https://itamarcaspi.github.io/ml4econ/lectures.html). The following references and links may be useful. However, note that they do not cover all the material we plan to cover in the class.
+
 #### __Machine Learning__
 
-[**An Introduction to Statistical Learning with Applications in R**](http://www-bcf.usc.edu/~gareth/ISL) <br>
+[An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL) <br>
 *Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani* <br>
 This book provides a hands-on and R-based introduction to Machine Learning. <br/>
 _PDF available online_
 
-[**Elements of Statistical Learning**](http://statweb.stanford.edu/~tibs/ElemStatLearn) <br>
+[Elements of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn) <br>
 *Trevor Hastie, Robert Tibshirani and Jerome Friedman* <br/>
 This book covers the same topics as previous book (and more), however, it provides more rigorous treatment. <br>
 _PDF available online_
 
-[**Machine Learning - A Probablistic Prespective**](https://www.cs.ubc.ca/~murphyk/MLbook/)  
+[Machine Learning - A Probablistic Prespective](https://www.cs.ubc.ca/~murphyk/MLbook/)  
 *Kevin P. Murphy*  
 This book includes basic topics in statistical modeling, as well as advanced machine learning topics.  It comes with Matlab code to reproduce almost every figure and algorithm, discussed in the book.
 
@@ -38,12 +38,12 @@ This book includes basic topics in statistical modeling, as well as advanced mac
 
 The following two books presents a detailed account of recently developed approaches to estimating models containing a large number of parameters, including the Lasso and versions of it: 
 
-[**Statistical Learning with Sparsity - The Lasso and Generalizations**](https://web.stanford.edu/~hastie/StatLearnSparsity/)  
+[Statistical Learning with Sparsity - The Lasso and Generalizations](https://web.stanford.edu/~hastie/StatLearnSparsity/)  
 *Trevor Hastie, Robert Tibshirani, and Martin Wainwright*  
 In book contains an introduction to and a summary of the actively developing field of statistical learning with sparse models.  
 _PDF available online_
 
-[**Statistics for High-Dimensional Data - Methods, Theory and Applications**](https://www.springer.com/gp/book/9783642201912)   
+[Statistics for High-Dimensional Data - Methods, Theory and Applications](https://www.springer.com/gp/book/9783642201912)   
 *Peter Buhlmann, and Sara van de Geer*  
 This book brings together methodological concepts, computational algorithms, a
 few applications and mathematical theory for high-dimensional statistics.  
@@ -53,20 +53,20 @@ few applications and mathematical theory for high-dimensional statistics.
 
 The following two textbooks provide a graduate level treatment of causal inference in social sciences:
 
-[**Mostly Harmless Econometrics**](http://www.mostlyharmlesseconometrics.com/) <br/>
+[Mostly Harmless Econometrics](http://www.mostlyharmlesseconometrics.com/) <br/>
 *Joshua Angrist and Jorn-Steffen Pischke*
 
-[**Causal Inference for Statistics, Social, and Biomedical Sciences**](https://doi.org/10.1017/CBO9781139025751) <br/>
+[Causal Inference for Statistics, Social, and Biomedical Sciences](https://doi.org/10.1017/CBO9781139025751) <br/>
 *Guido Imbens and Donald Rubin*
 
-[**The Book of Why: The New Science of Cause and Effect**](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X)  
+[The Book of Why: The New Science of Cause and Effect](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X)  
 _Judea Pearl and Dana Mackenzie_
 Pearl and Mackenzie's book is a must for anyone interested in causality. It lays the foundations of Pearl's approach to causal inference in plain English and graphs with very few equations.
 
 
 #### __Text Mining__
 
-[**Text Mining with R - A Tidy Approach**](https://www.tidytextmining.com/)  
+[Text Mining with R - A Tidy Approach](https://www.tidytextmining.com/)  
 _Julia Silge and David Robinson_  
 The go-to textbook for those interested in textmining with R.
 
@@ -76,7 +76,7 @@ The go-to textbook for those interested in textmining with R.
 + AEA 2018 Continuing Education, [”Machine Learning and Econometrics”](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) (Athey and
 Imbens).  
 + NBER 2015 Method Lectures, [”Lectures on Machine Learning”](https://www.nber.org/econometrics_minicourse_2015/) (Athey and Imbens).  
-+ NBER 2013 Method Lectures, ["Econometric Methods for High-Dimensional Data""](https://www.nber.org/econometrics_minicourse_2013/) (Victor Chernozhukov, Matthew Gentzkow, Christian Hansen, Jesse Shapiro, Matthew Taddy).  
++ NBER 2013 Method Lectures, ["Econometric Methods for High-Dimensional Data"](https://www.nber.org/econometrics_minicourse_2013/) (Chernozhukov, Gentzkow, Hansen, Shapiro, Taddy).  
 + [”Machine Learning and Prediction in Economics and Finance”](https://www.youtube.com/watch?v=xl3yQBhI6vY), Sendhil Mullainathan, AFA
 Lecture, 2017.  
 + ["The Impact of Machine Learning on Econometrics and Economics" ](https://www.aeaweb.org/webcasts/2019/aea-afa-joint-luncheon-impact-of-machine-learning), Susan Athey, AEA Lecture, 2019.
@@ -87,7 +87,7 @@ Lecture, 2017.
 * [Susan Athey](https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey) (Stanford)  
 * [Alexandre Belloni](https://faculty.fuqua.duke.edu/~abn5/belloni-index.html) (Duke)  
 * [Victor Chernozhukov](http://www.mit.edu/~vchern/) (MIT)  
-* [Francis Diebols](https://www.sas.upenn.edu/~fdiebold/)  
+* [Francis Diebold](https://www.sas.upenn.edu/~fdiebold/) (Penn)  
 * [Christiaמ Hansen](https://voices.uchicago.edu/christianhansen/) (Chicago)
 * [Guido Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens) (Stanford)  
 * [Maximilian Kasy](https://maxkasy.github.io/home/) (Harvard)  
