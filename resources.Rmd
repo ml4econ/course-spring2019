@@ -76,12 +76,12 @@ Lecture, 2017.
 * [Alexandre Belloni](https://faculty.fuqua.duke.edu/~abn5/belloni-index.html) (Duke)  
 * [Victor Chernozhukov](http://www.mit.edu/~vchern/) (MIT)  
 * [Francis Diebols](https://www.sas.upenn.edu/~fdiebold/)  
-* [Christial Hansen](https://voices.uchicago.edu/christianhansen/) (Chicago)
+* [Christiaמ Hansen](https://voices.uchicago.edu/christianhansen/) (Chicago)
 * [Guido Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens) (Stanford)  
 * [Maximilian Kasy](https://maxkasy.github.io/home/) (Harvard)  
 * [Sendhil Mullainathan](https://www.chicagobooth.edu/faculty/directory/m/sendhil-mullainathan)   (Chicago)  
 * [Jann Spiess](https://scholar.harvard.edu/spiess) (Harvard)  
-* [Stefan Wager](https://web.stanford.edu/~swager/index.html)  
+* [Stefan Wager](https://web.stanford.edu/~swager/index.html) (Stanford)
 
 
 
