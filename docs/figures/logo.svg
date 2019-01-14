@@ -83,9 +83,9 @@
      inkscape:window-height="705"
      id="namedview828"
      showgrid="true"
-     inkscape:zoom="0.58690695"
-     inkscape:cx="475.7763"
-     inkscape:cy="468.13418"
+     inkscape:zoom="1.1738139"
+     inkscape:cx="378.22446"
+     inkscape:cy="364.6321"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -112,14 +112,14 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:136px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff"
-     x="277.18851"
-     y="851.04877"
+     x="253.18851"
+     y="825.04877"
      id="text1397"><tspan
        sodipodi:role="line"
        id="tspan1395"
-       x="277.18851"
-       y="851.04877"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:149.33332825px;font-family:'Cooper Black';-inkscape-font-specification:'Cooper Black, ';fill:#ffffff;fill-opacity:1;stroke:#ffffff">ml4e</tspan></text>
+       x="253.18851"
+       y="825.04877"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'Cooper Black';-inkscape-font-specification:'Cooper Black, ';fill:#ffffff;fill-opacity:1;stroke:#ffffff">ml4econ</tspan></text>
   <image
      width="280"
      height="310"
@@ -232,5 +232,5 @@
        id="tspan847"
        x="-97.242607"
        y="1093.6022"
-       style="font-size:13.33333302px;fill:#ffffff;stroke:none">Machine Learning for Economists @ HUJI</tspan></text>
+       style="font-size:13.33333302px;fill:#ffffff;stroke:none">55750: Machine Learning for Economists @ HUJI</tspan></text>
 </svg>
