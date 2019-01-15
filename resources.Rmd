@@ -73,22 +73,22 @@ The go-to textbook for those interested in textmining with R.
 
 ## Webcasts
 
-+ AEA 2018 Continuing Education, [”Machine Learning and Econometrics”](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) (Athey and
++ AEA 2018 Continuing Education, ["Machine Learning and Econometrics"](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) (Athey and
 Imbens).  
-+ NBER 2015 Method Lectures, [”Lectures on Machine Learning”](https://www.nber.org/econometrics_minicourse_2015/) (Athey and Imbens).  
++ NBER 2015 Method Lectures, ["Lectures on Machine Learning"](https://www.nber.org/econometrics_minicourse_2015/) (Athey and Imbens).  
 + NBER 2013 Method Lectures, ["Econometric Methods for High-Dimensional Data"](https://www.nber.org/econometrics_minicourse_2013/) (Chernozhukov, Gentzkow, Hansen, Shapiro, Taddy).  
-+ [”Machine Learning and Prediction in Economics and Finance”](https://www.youtube.com/watch?v=xl3yQBhI6vY), Sendhil Mullainathan, AFA
++ ["Machine Learning and Prediction in Economics and Finance"](https://www.youtube.com/watch?v=xl3yQBhI6vY), Sendhil Mullainathan, AFA
 Lecture, 2017.  
 + ["The Impact of Machine Learning on Econometrics and Economics" ](https://www.aeaweb.org/webcasts/2019/aea-afa-joint-luncheon-impact-of-machine-learning), Susan Athey, AEA Lecture, 2019.
 
 
-## Economists (mostly) to follow
+## Scholars to follow
 
 * [Susan Athey](https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey) (Stanford)  
 * [Alexandre Belloni](https://faculty.fuqua.duke.edu/~abn5/belloni-index.html) (Duke)  
 * [Victor Chernozhukov](http://www.mit.edu/~vchern/) (MIT)  
 * [Francis Diebold](https://www.sas.upenn.edu/~fdiebold/) (Penn)  
-* [Christiaמ Hansen](https://voices.uchicago.edu/christianhansen/) (Chicago)
+* [Christian Hansen](https://voices.uchicago.edu/christianhansen/) (Chicago)
 * [Guido Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens) (Stanford)  
 * [Maximilian Kasy](https://maxkasy.github.io/home/) (Harvard)  
 * [Sendhil Mullainathan](https://www.chicagobooth.edu/faculty/directory/m/sendhil-mullainathan)   (Chicago)  
