@@ -20,7 +20,7 @@ One of your tasks in this course will be a Kaggle competition. In this competiti
 
 ### Getting Started
 
-1. Visit to [www.kaggle.com](www.kaggle.com) and open an account.
+1. Visit [www.kaggle.com](www.kaggle.com) and open an account.
 2. Go to the ml4econ competition [webpage](https://www.kaggle.com/t/97eb0edcbe7c406882c7c067076bedd3).
 3. Review competition details - Objectives, deadline, data, evaluation, submission rules, etc. 
 
