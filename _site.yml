@@ -23,7 +23,7 @@ navbar:
       menu:
         - text: "R and RStudio"
           href: RnRStudio.html
-        - text: "Git and Github"
+        - text: "Git and GitHub"
           href: git.html
         - text: "DataCamp Classroom"
           href: datacamp.html

@@ -37,6 +37,8 @@ GitHub Desktop can help you keep your copy of the `ml4econ` repo up to date by f
 
 ### Resources
 
++ [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+
 + The second chapter of DataCamp's [Working with the RStudio IDE (Part 2)](https://www.datacamp.com/courses/working-with-the-rstudio-ide-part-2) course.
 
 + DataCamp's [Introduction to Git for Data Science](https://www.datacamp.com/courses/introduction-to-git-for-data-science) course.
