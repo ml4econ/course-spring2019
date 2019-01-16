@@ -41,9 +41,9 @@ Homework assignments: **20%**; Final exam: **40%**; Final project: **40%**
 
 Google is typically the best first place to look for computational related solutions. Always assume that you are not the first one to encounter this problem!
 
-We will be using [Piazza](http://piazza.com/) for class discussion. Please post any questions that you may have there, rather than emailing us. All of your classmates will benefit from the public discussions.
+Nevertheless, we will be using a private GitHub repository for class discussion. Please post there any questions or requests you may have that are relevent to all course participants, rather than emailing us. All of your classmates will benefit from the public discussions.
 
-You can access our Piazza discussion forum [here](https://piazza.com/huji.ac.il/spring2019/57750/home). You can enroll to our course Piazza page [here](https://piazza.com/huji.ac.il/spring2019/57750/).
+You can access our GitHub discussion repository [here](https://github.com/itamarcaspi/ml4econ_discussion), but before you do, make sure that you have a GitHub account (see instruction [here](https://itamarcaspi.github.io/ml4econ/git.html)) and that you have recieved a collaboration invitations from me (Itamar). Shoot me an email if you haven't recieved an invitation.
 
 
 Occasionally we will post related stuff on twitter under the hashtag __#ml4econ__.

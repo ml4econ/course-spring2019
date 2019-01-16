@@ -34,8 +34,8 @@ navbar:
   right:
     - icon: fa-github
       href: https://github.com/itamarcaspi/ml4e/
-    - icon: fa-question-circle-o
-      href: https://piazza.com/huji.ac.il/spring2019/57750/home
+    - icon: fa-comments
+      href: https://github.com/itamarcaspi/ml4econ_discussion/
 output:
   html_document:
     toc: true
