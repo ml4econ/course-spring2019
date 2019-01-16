@@ -46,7 +46,7 @@ Nevertheless, we will be using a private GitHub repository for class discussion.
 You can access our GitHub discussion repository [here](https://github.com/itamarcaspi/ml4econ_discussion), but before you do, make sure that you have a GitHub account (see instruction [here](https://itamarcaspi.github.io/ml4econ/git.html)) and that you have recieved a collaboration invitations from me (Itamar). Shoot me an email if you haven't recieved an invitation.
 
 
-Occasionally we will post related stuff on twitter under the hashtag __#ml4econ__.
+Occasionally we will post related stuff on twitter under the hashtag [__#ml4econ__](https://twitter.com/search?f=tweets&q=%23ml4econ&src=typd).
 
 
 ## Feedback
