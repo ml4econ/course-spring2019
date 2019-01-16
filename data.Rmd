@@ -16,26 +16,52 @@ devtools::install_github("itamarcaspi/experimentdatar")
 
 ### Usage
 
-Load `experimentdatar` and other required libraries
-```{r data, message=FALSE}
-library(dplyr)
+Load the __experimentdatar__ package
+```{r load_package, message=FALSE}
+
 library(experimentdatar)
+
 ```
 
-Load the `social` dataset and display the response (`outcome_vote`) and treatment variable (`treat_neighbors`)
+Load the `social` dataset
 
-```{r}
+```{r load_data}
+
 data(social)  
+
+```
+
+(You can find information about variable definitions using `?social`.)
+
+Use `dataDetails()` function to open the paper associated with the `social` dataset
+
+```{r details, eval=FALSE}
+dataDetails("social")
+```
+
+Load the __dplyr__ and display the response (`outcome_vote`) and treatment variable (`treat_neighbors`)
+
+```{r tibble, message=FALSE}
+library(dplyr) # for data manipulations
+
 social %>% 
   select(outcome_voted, treat_neighbors) %>% 
   head()
 ```
 
-There is also a function `dataDetails` that opens the original paper where the data was used
+Use __ggplot2__ to plot the distribution of the median income of survey participants
 
-```{r details, eval=FALSE}
-dataDetails("social")
+```{r plot, message=FALSE}
+library(ggplot2) # for generating plots
+
+social %>% 
+  ggplot(aes(median_age)) +
+  geom_histogram(binwidth = 1)
+
 ```
+
+
+
 
 
 ### List of available datasets
