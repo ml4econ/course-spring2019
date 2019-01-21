@@ -13,7 +13,7 @@ Kaggle competitions are one of the best places to practice your ML skills and le
 
 
 
-### `ml4econ` Kaggle Competition
+### __ml4econ__ Kaggle Competition
 
 One of your tasks in this course will be a Kaggle competition. In this competition, you will rely on the "Boston Housing Data" to train and test machine learning models learned in the course. In particular, you will be required to apply the tools introduced in the course in order to predict the median house value based on a set of area specific housing market features. For more details, please visit the competition's [website](https://www.kaggle.com/t/97eb0edcbe7c406882c7c067076bedd3).  
 

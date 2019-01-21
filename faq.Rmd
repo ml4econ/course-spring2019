@@ -3,9 +3,11 @@ title: "Frequently Asked Questions"
 ---
 
 
-**Q:** Why `R`?
-  
-**A:** There is nothing that [R can do that Pyhton can't](https://www.quora.com/What-can-R-do-that-Python-cant) and [vice verca](https://www.quora.com/What-can-Python-do-that-R-cant). From our perspective, the main difference between the two is their purpose - Python is a general purpose programming language, whereas R was designed by statisticians (and a like) for statisticians. This means that R comes with thousands of built-in and user contributed libraries that help with statistical and econometric analysis. Python can do all that, but in many cases, which are relevent for us, you'll need to code R procedures in Python from scratch.  
+### Why R (and not Python)?
 
-For instance, during this course we will make use of the `causalTrees` R package (created by Susan Athey). This package uses regression trees in order to estimate _heterogenous_ treatment effects. `causalTrees` extends the popular `rpart` R package, for the purpose of estimating causal effects. If you want to perform a causal tree analysis with Python, you'll have to program the whole thing by yourself. While this could serve as a valuable exercise, it is way beyond the scope of this course.
+First things first, there is nothing that [R can do that Pyhton can't](https://www.quora.com/What-can-R-do-that-Python-cant) and [vice verca](https://www.quora.com/What-can-Python-do-that-R-cant). From our perspective, the main difference between the two is their purpose - Python is a general purpose programming language, whereas R was designed by statisticians (and a like) for statisticians. This means that R comes with thousands of built-in and user contributed libraries that help with statistical and econometric analysis. Python can do all that, but in many cases that are important to us, you'll need to code R procedures in Python from scratch.  
+
+For instance, during this course we will make use of the [__causalTree__](https://github.com/susanathey/causalTree) and [__grf__](https://github.com/grf-labs/grf) R packages (created by Susan Athey et al.). These packages use trees and forests in order to estimate _heterogenous_ treatment effects. __causalTree__ and __grf__ extend the popular __rpart__ R package, to deal with the task of of estimating causal effects. If you want to perform a causal tree analysis with Python, you'll have to program the whole thing by yourself. Though this could serve as a valuable exercise (and it even apears as an open [issue](https://github.com/grf-labs/grf/issues/257) in the __grf__ preject repository), it is way beyond the scope of this course.
+
+
 
