@@ -71,6 +71,14 @@ _Julia Silge and David Robinson_
 The go-to textbook for those interested in textmining with R.
 
 
+#### __The Economics of AI__
+
+[Prediction Machines](https://www.amazon.com/Prediction-Machines-Economics-Artificial-Intelligence/dp/1633695670)  
+_Ajay Agrawal, Joshua Gans, Avi Goldfarb_  
+"Three eminent economists recast the rise of AI as a drop in the cost of prediction. With this single, masterful stroke, they lift the curtain on the AI-is-magic hype and show how basic tools from economics provide clarity about the AI revolution and a basis for action by CEOs, managers, policy makers, investors, and entrepreneurs."
+
+
+
 ## Webcasts
 
 + AEA 2018 Continuing Education, ["Machine Learning and Econometrics"](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) (Athey and
@@ -91,6 +99,7 @@ Lecture, 2017.
 * [Christian Hansen](https://voices.uchicago.edu/christianhansen/) (Chicago)
 * [Guido Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens) (Stanford)  
 * [Maximilian Kasy](https://maxkasy.github.io/home/) (Harvard)  
+* [Grant McDermott](http://grantmcdermott.com/) (University of Oregon)
 * [Sendhil Mullainathan](https://www.chicagobooth.edu/faculty/directory/m/sendhil-mullainathan)   (Chicago)  
 * [Jann Spiess](https://scholar.harvard.edu/spiess) (Harvard)  
 * [Stefan Wager](https://web.stanford.edu/~swager/index.html) (Stanford)
