@@ -2,7 +2,12 @@
 title: "Git and GitHub"
 ---
 
-Git is the *de facto* go-to solution for version control. Think of "track changes" on steroids for code files. GitHub is the leading cloud hosting service of Git repositories, that enables efficient and transparent code sharing and collaboration.
+Our course will make extensive use of git and GitHub using the GitHub Classroom platform. In short, our course repositories will hold our class notes, data, info and discussions (the website you are currently viewing is also a part of our repository).
+
+
+### What are git and GitHub?
+
+[git](https://git-scm.com/) is the *de facto* go-to solution for version control. Think of "track changes" on steroids for code files. [GitHub](https://github.com/) is the leading cloud hosting service of git repositories, that enables efficient and transparent code sharing and collaboration.
 
 
 ### Git installation
@@ -24,11 +29,11 @@ Go [**here**](https://desktop.github.com/) to download GitHub Desktop, and follo
 
 ### Cloning the `ml4econ` repository
 
-Once git, GitHub and GitHub desktop are all set, open GitHub Desktop and go [**here**]() to open our `ml4econ` course repository. Once in the repository, click on the green **Clone or download** button (top right, above the folders and files pane). If done correctly, GitHub Desktop should prompt you with a request for a local destination for the `ml4econ` repository. Choose where you want to install your local copy of the `ml4econ` repo, click OK, and we're done. 
+Once git, GitHub account and GitHub desktop are all set, open GitHub Desktop and go [here](https://github.com/huji-ml4econ/course-spring2019) to open our __course-spring2019__ repository. Once in the repository, click on the green **Clone or download** button (top right, above the folders and files pane). If done correctly, GitHub Desktop should prompt you with a request for a local destination for the __course-spring2019__ repository. Choose where you want to install your local copy of the repo, click OK, and we're done. 
 
-### Keeping your local `ml4econ` repo synced
+### Keeping your local repo synced
 
-GitHub Desktop can help you keep your copy of the `ml4econ` repo up to date by following these steps:
+You keep your copy of the __course-spring2019__ repo up to date by following these steps:
 
 1. Open GitHub Desktop.
 2. Set the Current repository to `ml4econ`.

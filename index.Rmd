@@ -33,7 +33,7 @@ All computing in class will be conducted in R. Nevertheless,
 
 ## Prerequisite
 
-The only requirement is having taken a Masters level course in econometrics. No programming background is necessary, though it will definitely come in handy. For those without programming background, and those interested in enhancing their coding skills, don't worry! We will provide you with free access to DataCamp courses via our special [DataCamp Classroom](https://itamarcaspi.github.io/ml4econ/datacamp.html) account.
+The only requirement is having taken a Masters level course in econometrics. No programming background is necessary, though it will definitely come in handy. For those without programming background, and those interested in enhancing their coding skills, don't worry! We will provide you with free access to DataCamp courses via our special [DataCamp Classroom](https://huji-ml4econ.github.io/course-spring2019/datacamp.html) account.
 
 We also strongly recommend  you visit [Grant McDermott](http://grantmcdermott.com/)'s great course, ["Data Science for Economists"](https://github.com/uo-ec607) that pretty much complements our course (and much more than that).
 
@@ -49,7 +49,7 @@ Google is typically the best first place to look for computational related solut
 
 Nevertheless, we will be using a private GitHub repository for class discussion. Please post there any questions or requests you may have that are relevant to all course participants, rather than emailing us. All of your classmates will benefit from the public discussions.
 
-You can access our GitHub discussion repository [here](https://github.com/itamarcaspi/ml4econ_discussion), but before you do, make sure that you have a GitHub account (see instruction [here](https://itamarcaspi.github.io/ml4econ/git.html)) and that you have received a collaboration invitations from me (Itamar). Shoot me an email if you haven't received an invitation.
+You can access our GitHub discussion repository [here](https://github.com/huji-ml4econ/discussion-spring2019), but before you do, make sure that you have a GitHub account (see instruction [here](https://huji-ml4econ.github.io/course-spring2019/git.html)) and that you have received a collaboration invitations from me (Itamar). Shoot me an email if you haven't received an invitation.
 
 
 Occasionally we will post related stuff on twitter under the hashtag [__#ml4econ__](https://twitter.com/search?f=tweets&q=%23ml4econ&src=typd).
@@ -59,4 +59,4 @@ Occasionally we will post related stuff on twitter under the hashtag [__#ml4econ
 
 Your feedback is important! Please feel free to share with us
 your comments, concerns and suggestions on the course in
-person or by [email](https://itamarcaspi.github.io/ml4econ/people.html).
+person or by [email](https://huji-ml4econ.github.io/course-spring2019/people.html).
