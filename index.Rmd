@@ -1,6 +1,6 @@
 ---
 title: "55750: Machine Learning for Economists"
-subtitle: "Hebrew University - Spring 2019"
+subtitle: "Hebrew University of Jerusalem - Spring 2019"
 bibliography: bibliography.bib
 ---
 
