@@ -12,6 +12,8 @@ img <- readPNG("figures/logo.png")
 grid.raster(img)
 ```
 
+This website has moved to [https://huji-ml4econ.github.io/course-spring2019/](https://huji-ml4econ.github.io/course-spring2019/)
+
 Welcome to __ml4econ__, the **M**achine **L**earning for **Econ**omists course repository!  
 
 
