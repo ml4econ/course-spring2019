@@ -23,13 +23,17 @@ __NOTE:__ All materials and lecture notes will be available on the [class websit
 
 ## Webcasts and Online Courses
 
-+ AEA 2018 Continuing Education, ["Machine Learning and Econometrics"](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) (Athey and
-Imbens).  
-+ NBER 2015 Method Lectures, ["Lectures on Machine Learning"](https://www.nber.org/econometrics_minicourse_2015/) (Athey and Imbens).  
-+ NBER 2013 Method Lectures, ["Econometric Methods for High-Dimensional Data"](https://www.nber.org/econometrics_minicourse_2013/) (Chernozhukov, Gentzkow, Hansen, Shapiro, Taddy).  
-+ ["Machine Learning and Prediction in Economics and Finance"](https://www.youtube.com/watch?v=xl3yQBhI6vY), Sendhil Mullainathan, AFA
-Lecture, 2017.  
-+ ["The Impact of Machine Learning on Econometrics and Economics" ](https://www.aeaweb.org/webcasts/2019/aea-afa-joint-luncheon-impact-of-machine-learning), Susan Athey, AEA Lecture, 2019.
+* AEA 2018 Continuing Education, ["Machine Learning and Econometrics"](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) (Athey and
+Imbens).   
+
+* NBER 2015 Method Lectures, ["Lectures on Machine Learning"](https://www.nber.org/econometrics_minicourse_2015/) (Athey and Imbens).  
+
+* NBER 2013 Method Lectures, ["Econometric Methods for High-Dimensional Data"](https://www.nber.org/econometrics_minicourse_2013/) (Chernozhukov, Gentzkow, Hansen, Shapiro, Taddy).   
+
+* ["Machine Learning and Prediction in Economics and Finance"](https://www.youtube.com/watch?v=xl3yQBhI6vY), Sendhil Mullainathan, AFA
+Lecture, 2017.   
+
+* ["The Impact of Machine Learning on Econometrics and Economics" ](https://www.aeaweb.org/webcasts/2019/aea-afa-joint-luncheon-impact-of-machine-learning), Susan Athey, AEA Lecture, 2019.  
 
 
 ## Textbooks
