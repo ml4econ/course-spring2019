@@ -1,0 +1,78 @@
+---
+title: "Course Overview"
+subtitle: ""
+author: "Itamar Caspi"
+date: " (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: [default, "style/middlebury.css", "style/middlebury-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      
+---
+
+```{r setup, include=FALSE}
+library(svglite)
+library(knitr)
+library(kableExtra)
+knitr::opts_chunk$set(eval = TRUE, 
+                      echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE,
+                      dev = "svglite",
+                      fig.ext = ".svg")
+
+options(htmltools.dir.version = FALSE)
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(ggplot2)
+theme_set(theme_gray(15))
+```
+
+# What this course is about?
+
+why wont it work??
+
+---
+
+# What this course is not about?
+
+
+---
+
+# Class Assingments
+
+
+---
+
+# Class Repository
+
+---
+
+# DataCamp
+
+--- 
+
+# Discussions
+
+
+---
+
+# Feedback
+
+
+
+---
+class: center, inverse
+
+# Up Next: Becoming Better Programmers
+
+
