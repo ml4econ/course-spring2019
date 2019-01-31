@@ -1,3 +1,3 @@
-## 55750: Machine Learning for Economists
+## 55750: Machine Learning for Economists (ml4econ)
 ### Hebrew University - Spring 2019
 A repository for the "Machine Learninig for Economicsts" course.
