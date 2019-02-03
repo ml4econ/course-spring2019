@@ -33,11 +33,16 @@ Go [**here**](https://desktop.github.com/) to download GitHub Desktop, and follo
 
 2. Once in the repository, click on the **Fork** button (top right, next to the "Watch" and "Star" buttons).  
 
-![](figures/fork.gif)
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics("figures/fork.gif")
+
+```
 
 3. Go to your personal GitHab account and look for the now forked __course-spring2019__ (it should appear as `username/course-spring2019`).  
 
 4. Click on the green `Clone or download` button, while making sure that GitHub Desktop is running in the background. If done correctly, GitHub Desktop should prompt you with a request for a local destination for the __course-spring2019__ repository. Choose where you want to install your local copy of the repo, click OK, and we're done. 
+
 
 ### Keeping your local repo synced
 
@@ -47,6 +52,13 @@ To keep your copy of the __course-spring2019__ repo up to date follow these step
 2. Set the Current repository to __course-spring2019__.
 3. Click on the "Fetch origin" button.
 4. If it says Pull with a number next to it (e.g., "Pull" +1), click on it and you're done.
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+knitr::include_graphics("figures/pull.gif")
+
+```
+
 
 ### Resources
 
