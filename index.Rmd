@@ -19,23 +19,23 @@ Welcome to __ml4econ__, the **M**achine **L**earning for **Econ**omists course r
 
 The course will cover topics that range between machine learning (ML) and econometrics. In particular, we will discuss concepts from the world of ML that can potentially contribute to empirical economics. The course will cover leading machine learning (supervised and unsupervised) methods, with an emphasis on the challenges and opportunities of integrating these methods in empirical economics, and the relevance of ML to policy analysis and causal inference. The various topics are illustrated through applications, reading empirical articles, and doing applied work.
 
-The first, part of the course will focus on Supervised (predictive) and Unsupervised Machine Learning methods. Examples include Regression and K Nearest Neighbors, Classification, Dimensionality Reduction, Decision Trees and Random Forests, Principal Component Analysis and Clustering Analysis. You will learn what techniques to apply and why.
+The first, part of the course will introduce you to Supervised (predictive) and Unsupervised Machine Learning methods. Examples include Regression and K Nearest Neighbors, Classification, Dimensionality Reduction, Decision Trees and Random Forests, Principal Component Analysis and Clustering Analysis. You will learn what techniques to apply and why.
 
-In the second and biggest part of the class, you will learn about the relation between Machine Learning and Econometrics. You will learn about the difference between predicting and explaining, how machine learning methods aid in estimating causality and treatment effects i high-dimensional settings, and how unsupervised learning method can help us to generate variables. Examples include Causal Trees and Forests, Double Robust Machine Learning, and Text Mining with applications to data sets used to study economic phenomena.
+The second and biggest part of the class, will focus on the relationship between Machine Learning and Econometrics. You will learn about the difference between predicting and explaining, how machine learning methods aid in estimating treatment effects in high-dimensional settings, and how unsupervised learning method can help us to reduce dimenssionality and generate new variables. Examples include Causal Trees and Forests, Double Robust Machine Learning, and Text Mining with applications to data sets used to study economic phenomena.
 
 ## Computing
 
 All computing in class will be conducted in R. Nevertheless,
 
-* Though we will provide a brief introduction to R, the focus of the class will be on teaching concepts rather than how to use R.  
+* Though we will provide a brief introduction to R, RStudio, Git and GitHub, the focus of the class will be on teaching concepts rather than how to use R.  
 
 * We do encourage you to try out other programming languages (especially Python). However, note that we will be able to provide limited support for languages other than R.  
 
 ## Prerequisite
 
-The only requirement is having taken a Masters level course in econometrics. No programming background is necessary, though it will definitely come in handy. For those without programming background, and those interested in enhancing their coding skills, don't worry! We will provide you with free access to DataCamp courses via our special [DataCamp Classroom](https://huji-ml4econ.github.io/course-spring2019/datacamp.html) account.
+The only requirement is a Masters level course in econometrics. No programming background is necessary, though it will definitely come in handy. For those without programming background, and those interested in enhancing their coding skills, don't worry! We will provide you with free access to [DataCamp](https://www.datacamp.com/)'s online courses via our special [DataCamp Classroom](https://huji-ml4econ.github.io/course-spring2019/datacamp.html) account.
 
-We also strongly recommend  you visit [Grant McDermott](http://grantmcdermott.com/)'s great course, ["Data Science for Economists"](https://github.com/uo-ec607) that pretty much complements our course (and much more than that).
+We also strongly recommend  you visit [Grant McDermott](http://grantmcdermott.com/)'s amazing course, ["Data Science for Economists"](https://github.com/uo-ec607), that complements our course (and does way more than that!).
 
 
 ## Evaluation
@@ -45,14 +45,13 @@ Homework assignments: **20%**; Final exam: **40%**; Final project: **40%**
 
 ## Discussions
 
-Google is typically the best first place to look for computational related solutions. Always assume that you are not the first one to encounter this problem!
+Google and [StackExchange](https://stackexchange.com/) are typically the first places to look for answers for computational related questions. It is safe to always assume that you are not the first one to encounter your problem.
 
-Nevertheless, we will be using a private GitHub repository for class discussion. Please post there any questions or requests you may have that are relevant to all course participants, rather than emailing us. All of your classmates will benefit from the public discussions.
+Nevertheless, we will also be using a private GitHub repository for class discussion. Please post there any questions or requests you may have that are relevant to all course participants, rather than emailing us. All of your classmates will benefit from the public discussions.
 
-You can access our GitHub discussion repository [here](https://github.com/huji-ml4econ/discussion-spring2019), but before you do, make sure that you have a GitHub account (see instruction [here](https://huji-ml4econ.github.io/course-spring2019/git.html)) and that you have received a collaboration invitations from me (Itamar). Shoot me an email if you haven't received an invitation.
+You can access our GitHub discussion repository [here](https://github.com/huji-ml4econ/discussion-spring2019), but before you do, make sure that you have created a GitHub account (see instruction [here](https://huji-ml4econ.github.io/course-spring2019/git.html)) and that you have received a collaboration invitations from me (Itamar). Shoot me an email if you haven't received an invitation.
 
-
-Occasionally we will post related stuff on twitter under the hashtag [__#ml4econ__](https://twitter.com/search?f=tweets&q=%23ml4econ&src=typd).
+Occasionally Itamar will post related stuff on twitter under the hashtag [__#ml4econ__](https://twitter.com/search?f=tweets&q=%23ml4econ&src=typd).
 
 
 ## Feedback

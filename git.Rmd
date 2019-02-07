@@ -23,7 +23,7 @@ Go [**here**](http://github.com) to register an account if you have not got one.
 
 ### GitHub Desktop installation
 
-GitHub Desktop provides a straightforward GUI interface to git and GitHub. It enables you to easily sync between your local and remote folders and apply basic git commands with a click of a button. 
+GitHub Desktop provides a straightforward GUI interface to git and GitHub. It enables you to easily sync between your local and remote folders and apply basic git commands with a click of a button. (For more advanced git commands, you will have to use the Shell.)
 
 Go [**here**](https://desktop.github.com/) to download GitHub Desktop, and follow the installation guide. 
 
