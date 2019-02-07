@@ -1,8 +1,8 @@
 ---
-title: "Course Overview"
-subtitle: ""
+title: "Basic ML Concepts"
+subtitle: "for Economists"
 author: "Itamar Caspi"
-date: " (updated: `r Sys.Date()`)"
+date: "December 30, 2018 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     css: [default, "style/middlebury.css", "style/middlebury-fonts.css"]
@@ -37,42 +37,630 @@ library(ggplot2)
 theme_set(theme_gray(15))
 ```
 
-# What this course is about?
+# How "Big" is Big Data?
 
-why wont it work??
+<midd-blockquote>"_A billion years ago modern homo sapiens emerged. A billion minutes ago, Christianity began. A billion seconds ago, the IBM PC was released.
+A billion Google searches ago ... was this morning._"  
+.right[Hal Varian (2013)]</midd-blockquote>
 
----
+The 4 Vs of big data:  
 
-# What this course is not about?
-
-
----
-
-# Class Assingments
-
-
----
-
-# Class Repository
-
----
-
-# DataCamp
-
---- 
-
-# Discussions
++ Volume - Scale of data.  
++ Velocity - Analysis of streaming data.  
++ Variety - Different forms of data.  
++ Veracity - Uncertainty of data.  
 
 
 ---
 
-# Feedback
+# From Big Data to "Data Science"
+
+```{r, echo=FALSE, out.width = "75%", fig.align='center'}
+
+include_graphics("figures/venn.jpg")
+
+```
+
+
+---
+
+# But Then Again...
+
+```{r, echo=FALSE, out.width = "60%", fig.align='center'}
+
+include_graphics("figures/frame.jpg")
+
+```
+
+
+---
+# Outline
+
+1. Basic concepts  
+
+--
+
+2. The problem of overfitting  
+
+--
+
+3. Too complext? Regularize!  
+
+--
+
+4. What's in it for economists?
+
+
+---
+class: inverse, center, middle
+# Basic concepts
+
+
+---
+# So, What is Machine Learning (ML)?
+
+A modern definition of __machine learning__ from computer science (Mitchel, 1997):
+
+<midd-blockquote>
+"A computer program is said to __learn__ from experience $E$ with respect to some class of tasks $T$ and performance measure $P$, if its performance at tasks in $T$, as measured by $P$, improves with experience $E$."
+</midd-blockquote>
+
+Example: Self driving car  
+$E=$ data from sensors, camera, GPS, etc.  
+$T=$ driving.  
+$P=$ errors per mile.  
+
+---
+# Machine Learning is a Subfield of Artificial Intelligence (AI)
+
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+include_graphics("figures/DL-ML-AI.png")
+
+```
+
+Source: [https://www.magnetic.com/blog/explaining-ai-machine-learning-vs-deep-learning-post/](https://www.magnetic.com/blog/explaining-ai-machine-learning-vs-deep-learning-post/)
+
+
+---
+# Types of ML problems
+
+There are three broad classifications of ML problems:
+  + supervised learning (prediction).
+  + unsupervised learning (knowledge discovery).
+  + reinforcement learning (e.g., AlphaGo. Not covered in this lecture).
+  
+---
+# Unsupervised Learning
+
+In unsupervised learning, our goal is to divide high-dimensional data into groups of observations that are __similar__ in their features $(X)$.
+
+Examples of algorithms:  
+  + Principal component analysis (dimensionality reduction)  
+  + Cluster Analysis  
+  
+Applications:  
+  + Face recognition
+  + Topic analysis
+
+
+---
+# Example 1: Clustering OECD Inflation Rates
+
+```{r, echo=FALSE, out.width = "80%", fig.align='center'}
+
+include_graphics("figures/clustInflationCropped.jpg")
+
+```
+
+.footnote[_Source_: Baudot-Trajtenberg and Caspi (2018).]
+---
+# Example 2: Topic Modeling of Bank Of Israel Minutes
+
+
+```{r, echo=FALSE, out.width = "70%", fig.align='center'}
+
+include_graphics("figures/LDA.png")
+
+```
+
+
+---
+# Supervised Learning
+
+Consider a stable data generating process:
+
+$$Y=f(\boldsymbol{X})+\varepsilon$$
+where $Y$ is the outcome variable, $\boldsymbol{X}$ is a vector of predictiors ("features"), and $\varepsilon$ is the irreducable error.  
 
 
 
 ---
-class: center, inverse
+# The Bias-Variance Decomposition
 
-# Up Next: Becoming Better Programmers
+Under a squared error loss function, an optimal predictive model is one that minimizes the __expected__ squared prediction error.  
+
+It can be shown that if the true model is $Y=f(X)+\epsilon$, then
+
+$$\begin{aligned}[t]
+\mathbb{E}\left[\text{SE}^0\right] &= \mathbb{E}\left[(y^0 - \hat{f}(x^0))^2\right] \\ &= \underbrace{\left(\mathbb{E}(\hat{f}(x^0)) - f(x^0)\right)^{2}}_{\text{bias}^2} + \underbrace{\mathbb{E}\left[\hat{f}(x^0) - \mathbb{E}(\hat{f}(x^0))\right]^2}_{\text{variance}} + \underbrace{\mathbb{E}\left[y^0 - f(x^0)\right]^{2}}_{\text{irreducible error}} \\ &= \underbrace{\mathrm{Bias}^2 + \mathbb{V}[\hat{f}(x^0)]}_{\text{reducible error}} + \sigma^2_{\epsilon}
+\end{aligned}$$
+
+
+---
+# The Variance of f(X)
+
+
+---
+# The Bias of f(X)
+
+
+
+
+
+---
+# Illustrating the Bias-Variance Tradeoff
+
+```{r }
+library(tidyverse)
+
+set.seed(1203) # for replicating the simulation
+
+df <- crossing(economist = c("A", "B", "C"),
+         obs = 1:10) %>% 
+  mutate(economist = as.factor(economist)) %>% 
+  mutate(income = rnorm(n(), mean = 100, sd = 10)) %>% 
+  mutate(consumption = 10 + 0.5 * income + rnorm(n(), sd = 10))
+
+knitr::kable(head(df), format = "html")
+```
+
+---
+# Scatterplot of the Data
+
+.pull-left[
+```{r scatter, fig.show='hide', fig.retina=3}
+
+df %>% 
+  ggplot(aes(x = consumption,
+             y = income)) +
+  geom_point()
+  
+```
+]
+.pull-right[
+```{r, ref.label = 'scatter', echo=FALSE}
+
+```
+]
+---
+# Split the Sample Between 3 Economists
+
+.pull-left[
+```{r scatter_split, fig.show='hide', fig.retina=3}
+
+df %>% 
+  ggplot(aes(x = consumption,
+             y = income,
+             color = economist)) +
+  geom_point() +
+  theme(legend.position = "bottom")
+  
+```
+]
+.pull-right[
+```{r, ref.label = 'scatter_split', echo=FALSE}
+
+```
+]
+
+---
+# High Bias, Low Variance
+
+$$Y_i = \beta_0+\varepsilon_i$$
+.pull-left[
+```{r underfit, fig.width=6, fig.show='hide', fig.retina=3}
+
+df %>% 
+  ggplot(aes(x = consumption,
+             y = income,
+             color = economist)) +
+  geom_point() +
+  geom_smooth(method = lm,
+              formula = y ~ 1, #<<
+              se = FALSE,
+              color = "black") +
+  facet_wrap(~ economist) +
+  geom_vline(xintercept = 70, linetype = "dashed") +
+  theme(legend.position = "bottom")
+  
+```
+]
+.pull-right[
+```{r, ref.label = 'underfit', echo=FALSE}
+
+```
+]
+---
+# Low Bias, High Variance
+
+$$Y_i = \beta_0+\beta_1X_i+\beta_2X^2_i+\beta_3X_i^3+\beta_4X_i^4+\beta_5X_i^5+\varepsilon_i$$
+.pull-left[
+```{r overfit, fig.width=6, fig.show='hide', fig.retina=3}
+
+df %>% 
+  ggplot(aes(x = consumption,
+             y = income,
+             color = economist)) +
+  geom_point() +
+  geom_smooth(method = lm,
+              formula = y ~ poly(x,5), #<<
+              se = FALSE,
+              color = "black") +
+  facet_wrap(~ economist) +
+  geom_vline(xintercept = 70, linetype = "dashed") +
+  theme(legend.position = "bottom")
+  
+```
+]
+.pull-right[
+```{r, ref.label = 'overfit', echo=FALSE}
+
+```
+]
+
+---
+# Bias and Variance Just Right"
+
+$$Y_i = \beta_0+\beta_1 X_i + \varepsilon_i$$
+.pull-left[
+```{r justfit, fig.width=6, fig.show='hide', fig.retina=3}
+
+df %>% 
+  ggplot(aes(x = consumption,
+             y = income,
+             color = economist)) +
+  geom_point() +
+  geom_smooth(method = lm,
+              formula = y ~ x, #<<
+              se = FALSE,
+              color = "black") +
+  facet_wrap(~ economist) +
+  geom_vline(xintercept = 70, linetype = "dashed") +
+  theme(legend.position = "bottom")
+  
+```
+]
+.pull-right[
+```{r, ref.label = 'justfit', echo=FALSE}
+
+```
+]
+---
+# The Typical Bias-Variance Tradeoff in ML
+
+
+Typically, prediction machines strive to find levels of bias and variance that are "just right":
+
+```{r, echo=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("figures/biasvariance.png")
+
+```
+
+
+---
+# When is the Bias-Variance Tradeoff Important?
+
+In low-dimenssional settings ( $n\gg p$ )  
+  + overfitting is highly unlikely  
+  + training MSE closely approximates test MSE  
+  + conventional tools (e.g., OLS) will perform well on a test set
+
+INTUITION: As $n\rightarrow\infty$, insignificant terms will converge to their true value (zero).
+
+In high-dimenssional settings ( $n\ll p$ )  
+  + overfitting is highly unlikely  
+  + training MSE poorly approximates test MSE  
+  + conventional tools tend to overfit  
+  
+<blockquote> $n\ll p$ is prevalent in big-data </blockquote>
+  
+  
+  
+---
+# The Bias-Variance Tradeoff in Low-dmenssional Settings
+
+The model:  
+$$Y_i = \beta_0+\beta_1X_i+\beta_2X^2_i+\beta_3X_i^3+\varepsilon_i$$
+where the sample size for each economist is now $N=100$.
+
+.pull-left[
+```{r big_n, fig.width=6, fig.show='hide', fig.retina=3}
+set.seed(1505)
+crossing(economist = c("A", "B", "C"),
+         obs = 1:500) %>% 
+  mutate(economist = as.factor(economist)) %>% 
+  mutate(income = rnorm(n(), mean = 100, sd = 10)) %>% 
+  mutate(consumption = 10 + 0.5 * income + rnorm(n(), sd = 10)) %>% 
+  ggplot(aes(x = consumption,
+             y = income,
+             color = economist)) +
+  geom_point() +
+  geom_smooth(method = lm,
+              formula = y ~ poly(x,3), #<<
+              se = FALSE,
+              color = "black") +
+  facet_wrap(~ economist) +
+  geom_vline(xintercept = 70, linetype = "dashed") +
+  theme(legend.position = "bottom")
+
+
+```
+]
+.pull-right[
+```{r, ref.label = 'big_n', echo=FALSE}
+
+```
+]
+
+---
+# More Intuition on the Bias Variance Trade Off
+
+Imagine you are a teaching assistant grading exams. You grade the first exam. What the prediction of the next grade should be?
+
++ the first test score is an unbiased estimator of the mean grade  
++ but it is extremely variable  
++ Solution: Think like a Bayesian and shrink towards your prior for the mean grade  
+
+
+---
+# Let's Simulate This
+
+We now generate 100 datapoints on grades that comefrom the truncated normal distribution
+
+$$grade_i \sim truncN(a = 0, b = 100, \mu = 75, \sigma = 15),\quad i=1,2$$
+
+
+and the calculate two types of predictions - __unbiased__ estimate (previous grade) and __shrinked__ is a simple average of the previous grade and our prior mean grade (60)
+
+```{r, echo=FALSE}
+library(truncnorm) # for drawing from a truncated normal distribution
+
+n <- 1000 # number of replications
+
+test_df <- tibble(attempt = 1:n,
+                  grade1  = rtruncnorm(n, a = 0, b = 100, mean = 80, sd = 15),
+                  grade2  = rtruncnorm(n, a = 0, b = 100, mean = 80, sd = 15)) %>% 
+  mutate_if(is.numeric, round, 0) %>% 
+  mutate(unbiased_pred = grade1,
+         shrinked_pred = 0.5*70 + 0.5*grade1)
+  
+```
+
+Here a small sample from our simulated table:
+```{r, echo=FALSE}
+kable(sample_n(test_df, 6), format = "html")
+```
+ 
+---
+# The Distribution of Prediction and the RMSE
+
+```{r, echo=FALSE, fig.width=11, fig.height=4, fig.align='center'}
+
+test_df %>% 
+  select(attempt, unbiased_pred, shrinked_pred) %>% 
+  gather(guess_type, guess_value, -attempt) %>% 
+  ggplot(aes(x = guess_value, fill = guess_type)) +
+  geom_histogram(binwidth = 5, show.legend = FALSE) +
+  facet_wrap(~ guess_type) +
+  labs(x = "Test Score", y = "Count")
+  
+```
+
+And now for the RMSE  
+```{r, echo=FALSE}
+test_df %>% 
+  mutate(unbiased_SE = (unbiased_pred - grade2)^2,
+         shrinked_SE = (shrinked_pred - grade2)^2) %>% 
+  summarise(unbiased_RMSE = mean(unbiased_SE),
+            shrinked_RMSE = mean(shrinked_SE)) %>% 
+  kable(format = "html")
+```
+The shrinked prediction turns out to be better then the unbiased one!
+
+---
+
+class: title-slide-section-blue, center, middle
+
+# Too Complex? Regularize!
+
+
+
+---
+
+# How Can We Detect Overfitting?
+
+Given that the test-MSE is __unobservable__, how can we know whether our model overfits the training set?  
+
++ Main idea in machine learning - use __less__ data!  
++ Key point: Fit the model on a subset of the training set, and predict the subset that was __not__ used to fit the model.  
++ When will this "magic" work? Recall our "stable environment" assumption.  
+
+
+---
+# TBA
+
+<div align="center">
+<img src="figures/train_validate.pdf">
+</div>
+
+---
+
+# Validation
+
+```{r, echo=FALSE, out.width = "50%", fig.align='center'}
+
+include_graphics("figures/train_validate.png")
+
+```
+
+
+
+1. Devide the sample set into three parts: a training set, a validation set and a test set.
+
+2. Fit the model to the training set.
+
+3. Use the estimated model to predict outcomes from the validation set.
+
+4. Use the mean of the squared prediction errors from the validation set to approximate the text-MSE
+
+
+---
+# K-fold Cross-Validation (CV)
+
+
+---
+
+# Example: Tuning the Optimal Polynimial Degree
+
+
+.pull-left[
+Assume that the "true" data-generating process is a 4th degree polynimial (i.e., $\lambda=4$):
+
+$$Y_i = 1 + 2X_i - 4X_i^2 + 1.5X_i^3 - 0.5X_i^4 + \varepsilon_i$$
+
+Let's draw $n=200$ samples of $x$ and $y$
+```{r poly, fig.width=6, fig.show='hide', fig.retina=3}
+
+set.seed(1111) # for replicating the results
+
+n  <- 200
+df <- tibble(x     = rnorm(n),
+             y     = 1 + 2*x - 4*x^2 + 1.5*x^3 - 0.5*x^4 + 6*rnorm(n))
+
+df %>% 
+  ggplot(aes(x, y)) +
+  geom_point()
+
+```
+]
+.pull-right[
+```{r, ref.label = 'poly', echo=FALSE}
+
+```
+]
+ 
+ 
+---
+# Step 1: Train-test Split
+
+We first need to load the __tidymodels__ package
+```{r }
+library(tidymodels)
+
+```
+
+We will use the `initial_split()`, `training()` and `testing()` functions from the `rsample` package to perform an initial train-test split
+
+```{r}
+df_split <- initial_split(df, prop = 0.75)
+
+df_split
+
+```
+
+
+```{r}
+training_df <- training(df_split) # the trainig set
+testting_df <- testing(df_split)  # the test set
+
+training_df
+```
+
+---
+# Prepaer Folds for Cross-validation
+
+```{r }
+
+cv_data <- training_df %>% 
+  vfold_cv(v = 5) %>%  
+  mutate(train     = map(splits, ~training(.x)), 
+         validate  = map(splits, ~testing(.x)))
+
+cv_data
+```
+
+---
+# Set Search Range for Lambda
+
+```{r }
+
+cv_tune <- cv_data %>% 
+  crossing(lambda = 1:6)
+
+cv_tune
+```
+
+---
+# Estimating CV-MSE
+
+```{r }
+
+cv_mse <- cv_tune %>% 
+  mutate(model = map2(lambda, train, ~ lm(y ~ poly(x, .x), data = .y))) %>% 
+  mutate(predicted = map2(model, validate, ~ augment(.x, newdata = .y))) %>% 
+  unnest(predicted) %>% 
+  group_by(lambda) %>% 
+  summarise(mse = mean((.fitted - y)^2))
+
+cv_mse
+```
+
+---
+# Finding the Optimal Lambda
+ 
+```{r, echo=FALSE, fig.width=11, fig.height=5, fig.align='center'}
+
+cv_mse %>% 
+  ggplot(aes(x = lambda, y = mse)) +
+  geom_line() + 
+  geom_point() +
+  # geom_errorbar(aes(ymax = mse + sd, ymin = mse - sd)) +
+  geom_vline(xintercept = 4, color = "blue") +
+  labs(x = "Lambda", y = "5-fold CV MSE")
+
+```
+
+
+---
+# ML vs. Econometrics
+
+Apart from jargon (Training set vs. in-sample, test-set vs. out of sample, learn vs. estimate, etc.) here is a summary of some of the key differences between ML and econometrics:
+
+
+|   Machine Learning | Econometrics |
+| -----------------: | ----------------------: |
+| predict | explain |
+| $\hat{Y}$ | $\hat{\beta}$ |
+| minimize test MSE | unbiasedness |
+| --- | inference |
+| stable environment | counterfactual analysis |
+| black-box | structural |
+| high-dimensional | low-dimensional |
+
+
+---
+# Prediction in Aid of Estimation
+
+$$Y_i=\alpha+\underbrace{\tau T_i}_{\text{low dimensional}} +\underbrace{\sum_{j=1}^{p}\beta_{j}X_{ij}}_{\text{high dimensional}}+\varepsilon_i,\quad\text{for }i=1,\dots,n$$
+where
++ An outcome $Y_i$  
++ A treatment assignment $T_i\in\{0,1\}$  
++ A vector of $p$ controls $X_i$  
+
+Our object of interest is often $\hat{\tau}$, the average treatment effect (ATE).
+
 
 
