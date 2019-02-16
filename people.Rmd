@@ -12,18 +12,21 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 <br>
 ![](figures/itamar.png) <br>
 **Itamar Caspi** <br>
-Senior Economist, Research Department, *Bank of Israel* <br>
-[<i class="fa fa-home"></i> ](http://www.itamarcaspi.net/) 
-[<i class="fa fa-envelope"></i> ](mailto:caspi.itamar@gmail.com)
+Senior Economist,  
+Research Department,  
+*Bank of Israel* <br>
+[<i class="fa fa-home"></i> ](https://itamarcaspi.rbind.io/) 
+[<i class="fa fa-paper-plane"></i> ](mailto:caspi.itamar@gmail.com)
 [<i class="fa fa-github"></i> ](https://github.com/itamarcaspi/)
-[<i class="fa fa-linkedin"></i> ](https://www.linkedin.com/in/itamar-caspi/)
-[<i class="fa fa-twitter-square"></i> ](https://twitter.com/itamarcaspi/)
+[<i class="fa fa-twitter"></i> ](https://twitter.com/itamarcaspi/)
 
 <br>
 ![](figures/ariel.png) <br>
 **Ariel Mansura** <br>
-Head of Statistical Methodology Unit, *Bank of Israel* <br>
-[<i class="fa fa-envelope"></i>](mailto:ariel.mansura@boi.org.il)
+Head of Statistical Methodology Unit,  
+Information and Statistics Department,  
+*Bank of Israel* <br>
+[<i class="fa fa-paper-plane"></i>](mailto:ariel.mansura@boi.org.il)
 
 
 ### Guest Lecturers

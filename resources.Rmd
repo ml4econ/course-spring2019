@@ -113,25 +113,25 @@ Pearl and Mackenzie's book is a must for anyone interested in causality. It lays
 
 ## People to follow
 
-* [Susan Athey](https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey) (Stanford) [<i class="fa fa-twitter-square"></i> ](https://twitter.com/susan_athey)  
+* [Susan Athey](https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey) (Stanford) [<i class="fa fa-twitter"></i> ](https://twitter.com/susan_athey)  
 
 * [Alexandre Belloni](https://faculty.fuqua.duke.edu/~abn5/belloni-index.html) (Duke)  
 
 * [Victor Chernozhukov](http://www.mit.edu/~vchern/) (MIT)  
 
-* [Francis Diebold](https://www.sas.upenn.edu/~fdiebold/) (Penn) [<i class="fa fa-twitter-square"></i> ](https://twitter.com/FrancisDiebold)  
+* [Francis Diebold](https://www.sas.upenn.edu/~fdiebold/) (Penn) [<i class="fa fa-twitter"></i> ](https://twitter.com/FrancisDiebold)  
 
 * [Christian Hansen](https://voices.uchicago.edu/christianhansen/) (Chicago)  
 
 * [Guido Imbens](https://www.gsb.stanford.edu/faculty-research/faculty/guido-w-imbens) (Stanford)  
 
-* [Maximilian Kasy](https://maxkasy.github.io/home/) (Harvard) [<i class="fa fa-twitter-square"></i> ](https://twitter.com/maxkasy)  
+* [Maximilian Kasy](https://maxkasy.github.io/home/) (Harvard) [<i class="fa fa-twitter"></i> ](https://twitter.com/maxkasy)  
 
-* [Grant McDermott](http://grantmcdermott.com/) (University of Oregon) [<i class="fa fa-twitter-square"></i> ](https://twitter.com/grant_mcdermott)  
+* [Grant McDermott](http://grantmcdermott.com/) (University of Oregon) [<i class="fa fa-twitter"></i> ](https://twitter.com/grant_mcdermott)  
 
-* [Sendhil Mullainathan](https://www.chicagobooth.edu/faculty/directory/m/sendhil-mullainathan)   (Chicago) [<i class="fa fa-twitter-square"></i> ](https://twitter.com/m_sendhil)  
+* [Sendhil Mullainathan](https://www.chicagobooth.edu/faculty/directory/m/sendhil-mullainathan)   (Chicago) [<i class="fa fa-twitter"></i> ](https://twitter.com/m_sendhil)  
 
-* [Jann Spiess](https://scholar.harvard.edu/spiess) (Harvard) [<i class="fa fa-twitter-square"></i> ](https://twitter.com/jannspiess)   
+* [Jann Spiess](https://scholar.harvard.edu/spiess) (Harvard) [<i class="fa fa-twitter"></i> ](https://twitter.com/jannspiess)   
 
 * [Stefan Wager](https://web.stanford.edu/~swager/index.html) (Stanford)  
 

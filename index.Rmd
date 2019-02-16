@@ -12,7 +12,7 @@ img <- readPNG("figures/logo.png")
 grid.raster(img)
 ```
 
-Welcome to __ml4econ__, the **M**achine **L**earning for **Econ**omists course repository! This is a graduate level course taught by [Itamar Caspi](www.itamarcaspi.net) and Ariel Mansura at the Hebrew University of Jerusalem.
+Welcome to __ml4econ__, the **M**achine **L**earning for **Econ**omists course repository! This is a graduate level course taught by [Itamar Caspi](https://itamarcaspi.rbind.io) and Ariel Mansura at the Hebrew University of Jerusalem.
 
 
 ## Course summary
