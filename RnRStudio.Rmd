@@ -2,19 +2,19 @@
 title: "R and RStudio"
 ---
 
-To get started, you first need to install R. Next, we highly recommend using RStudio, an integrated development environment (IDE) that makes working with R much easier (RStudio's setup will be familiar for those of you who have prior experience with Matlab's IDE). RStudio comes with the very handy `RProj` environment and provides many built-in features that help facilitate data analysis and modelling tasks. In addition, RStudio integrates RMarkdown notebooks that and git, thus enabling us to efficiently work with version control. 
+To get started, you first need to install R. Next, we highly recommend using RStudio, an integrated development environment (IDE) that makes working with R much easier (RStudio's setup is familiar to those of who have prior experience with Matlab). RStudio comes with the very handy `RProj` environment and provides many built-in features that help facilitate data analysis and modelling tasks. 
 
 
 ### Install R
 
-Go to [CRAN](https://cloud.r-project.org/) and click on the download link that suits your OS.
+Visit [https://cloud.r-project.org/](https://cloud.r-project.org/) and click on the download link that fits your operating system.
 
 
 ### Install RStudio
 
-Go to [RStudio](https://www.rstudio.com/) website and click on the download button. The free version is more than what you need for this course.
+Visit [https://www.rstudio.com/](https://www.rstudio.com/) website and click the download button. The free version covers (way) more than what you need for this course.
 
-Three recommended settings:
+Three recommended RStudio settings:
 
 1. Always use a project-oriented workflow, where each task, assignment, etc. is a standalone project. Remember: If you need your R script to start with`setwd()` and `rm(list=ls())` than are [doing something wrong](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/)!  
 
@@ -23,7 +23,7 @@ Three recommended settings:
 3. Go to **Tools -> General Options -> Git/SVN** and check the "Enable version control interface to RStudio projects" box. Next, make sure that the "Git executable" points to the git binary file (e.g., "C:/Program Files/Git/bin/git.exe").
 
 
-### Alternativs to R and RStudio
+### Alternatives to R and RStudio
 
 If for some reason you insist on not using RStudio, we can suggest a couple alternative open-source IDEs:
 
@@ -32,7 +32,7 @@ If for some reason you insist on not using RStudio, we can suggest a couple alte
 
 Note that all IDEs, RStudio included depend on R being installed.
 
-### Resources for learning R
+### Further Resources
 
 * Datacamp's [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) and [Working with the RStudio IDE (Part 1)](https://www.datacamp.com/courses/working-with-the-rstudio-ide-part-1) courses.  
 
