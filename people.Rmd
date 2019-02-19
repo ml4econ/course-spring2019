@@ -12,7 +12,7 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 <br>
 ![](figures/itamar.png) <br>
 **Itamar Caspi** <br>
-Senior Economist,  
+Head of Monetary Analysis Unit,
 Research Department,  
 *Bank of Israel* <br>
 [<i class="fa fa-home"></i> ](https://itamarcaspi.rbind.io/) 
