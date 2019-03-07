@@ -11,7 +11,7 @@ We will move at a pace dictated by class discussions. Please check this page oft
 | [**2**](#week-2)      | Itamar | Introduction to R, Rstudio, and git |
 | [**3**](#week-3)      | Ariel  | Regression and K Nearest Neighbors|
 | [**4**](#week-4)      | Ariel  | Classification |
-| [**5**](#week-5)      | Ariel  | Dimenssionality Reduction |
+| [**5**](#week-5)      | Ariel  | Dimensionality Reduction |
 | [**6**](#week-6)      | Ariel  | Decision Trees and Random Forests| 
 | [**7**](#week-7)      | Ariel  | Unsupervised Learning|
 | [**8**](#week-8)      | Itamar | Prediction in Aid of Estimation I - Average Treatment Effects |
@@ -23,9 +23,22 @@ We will move at a pace dictated by class discussions. Please check this page oft
 
 ## Week 1
 
+Lecture notes: Course Overview (TBA).
+
+Papers:  
+
+  - Breiman, L. (2001). [Statistical modeling: The two cultures](https://projecteuclid.org/euclid.ss/1009213726). _Statistical Science_, 16(3), 199-231.
+
+  - Athey, S. (2018). [The impact of machine learning on economics](https://www.nber.org/chapters/c14009.pdf). In _The Economics of Artificial Intelligence: An Agenda_. University of Chicago Press.  
+  
+  - Mullainathan, S., & Spiess, J. (2017). [Machine learning: an applied econometric approach](https://www.aeaweb.org/articles?id=10.1257/jep.31.2.87). _Journal of Economic Perspectives_, 31(2), 87-106.  
 
 
+[DataCamp courses](https://www.datacamp.com/enterprise/machine-learning-for-economists):
 
+ - Introduction to R  
+ 
+ - Working with the RStudio IDE (Part I)
 
 
 
