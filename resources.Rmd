@@ -6,7 +6,7 @@ title: "Resources"
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 ```
 
-__NOTE:__ All materials and lecture notes will be available on the [class website](https://huji-ml4econ.github.io/course-spring2019/lectures.html). The following list of references and links may be useful. However, note that they _do not_ necessarily cover all the material we plan to cover in the class.
+__NOTE:__ The following list of references and links may be useful. However, note that they _do not_ necessarily cover all the material we plan to cover in the class.
 
 ## Surveys
 

@@ -1,4 +1,4 @@
-url: https://huji-ml4econ.github.io/course-spring2019/
+url: https://ml4econ.github.io/course-spring2019/
 
 name: "ml4econ"
 output_dir: "docs"
@@ -33,9 +33,9 @@ navbar:
           href: kaggle.html
   right:
     - icon: fa-github
-      href: https://github.com/huji-ml4econ/course-spring2019
+      href: https://github.com/ml4econ/course-spring2019
     - icon: fa-comments
-      href: https://github.com/huji-ml4econ/discussion-spring2019
+      href: https://github.com/ml4econ/discussion-spring2019
 output:
   html_document:
     toc: true

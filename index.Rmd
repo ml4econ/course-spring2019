@@ -1,6 +1,6 @@
 ---
-title: "55750: Machine Learning for Economists"
-subtitle: "Hebrew University of Jerusalem - Spring 2019"
+title: "Machine Learning for Economists"
+subtitle: "Spring 2019"
 bibliography: bibliography.bib
 ---
 
@@ -12,7 +12,14 @@ img <- readPNG("figures/logo.png")
 grid.raster(img)
 ```
 
-Welcome to __ml4econ__, the **M**achine **L**earning for **Econ**omists course repository! This is a graduate level course taught by [Itamar Caspi](https://itamarcaspi.rbind.io) and Ariel Mansura at the Hebrew University of Jerusalem.
+Welcome to the unofficial __ml4econ__, the **M**achine **L**earning for **Econ**omists course repository! This is a GitHub repository for a graduate level course taught by [Itamar Caspi](https://itamarcaspi.rbind.io) and Ariel Mansura.
+
+
+## Disclaimers
+
+1.  The [official 55750 syllabus](http://shnaton.huji.ac.il/index.php/NewSyl/57750/1/2019/) and the content on the [official 55750 Moodle website](https://moodle2.cs.huji.ac.il/nu18/course/view.php?id=57750) shall always prevail in case of any discrepancy or inconsistency between this website and its official HUJI versions.  
+
+2. This website and its content do not necessarily reflect the views of the Bank of Israel or any of its staff.  
 
 
 ## Course summary
@@ -23,7 +30,7 @@ The first, part of the course will introduce you to Supervised (predictive) and 
 
 The second and biggest part of the class, will focus on the relationship between Machine Learning and Econometrics. You will learn about the difference between predicting and explaining, how machine learning methods aid in estimating treatment effects in high-dimensional settings, and how unsupervised learning method can help us to reduce dimenssionality and generate new variables. Examples include Causal Trees and Forests, Double Robust Machine Learning, and Text Mining with applications to data sets used to study economic phenomena.
 
-## Computing
+## Programming
 
 All computing in class will be conducted in R. Nevertheless,
 
@@ -31,16 +38,9 @@ All computing in class will be conducted in R. Nevertheless,
 
 * We do encourage you to try out other programming languages (especially Python). However, note that we will be able to provide limited support for languages other than R.  
 
-## Prerequisite
+No programming background is necessary, though it will definitely come in handy. For those without programming background, and those interested in enhancing their coding skills, don't worry! We will provide you with free access to [DataCamp](https://www.datacamp.com/)'s online courses via our special [DataCamp Classroom](https://ml4econ.github.io/course-spring2019/datacamp.html) account.
 
-The only requirement is a Masters level course in econometrics. No programming background is necessary, though it will definitely come in handy. For those without programming background, and those interested in enhancing their coding skills, don't worry! We will provide you with free access to [DataCamp](https://www.datacamp.com/)'s online courses via our special [DataCamp Classroom](https://huji-ml4econ.github.io/course-spring2019/datacamp.html) account.
-
-We also strongly recommend  you visit [Grant McDermott](http://grantmcdermott.com/)'s amazing course, ["Data Science for Economists"](https://github.com/uo-ec607), that complements our course (and does way more than that!).
-
-
-## Evaluation
-
-Homework assignments: **20%**; Final exam: **40%**; Final project: **40%**
+We also strongly recommend you visit [Grant McDermott](http://grantmcdermott.com/)'s amazing course, ["Data Science for Economists"](https://github.com/uo-ec607), that complements our course (and does way more than that!).
 
 
 ## Discussions
@@ -49,7 +49,7 @@ Google and [StackExchange](https://stackexchange.com/) are typically the first p
 
 Nevertheless, we will also be using a private GitHub repository for class discussion. Please post there any questions or requests you may have that are relevant to all course participants, rather than emailing us. All of your classmates will benefit from the public discussions.
 
-You can access our GitHub discussion repository [here](https://github.com/huji-ml4econ/discussion-spring2019), but before you do, make sure that you have created a GitHub account (see instruction [here](https://huji-ml4econ.github.io/course-spring2019/git.html)) and that you have received a collaboration invitations from me (Itamar). Shoot me an email if you haven't received an invitation.
+You can access our GitHub discussion repository [here](https://github.com/ml4econ/discussion-spring2019), but before you do, make sure that you have created a GitHub account (see instruction [here](https://ml4econ.github.io/course-spring2019/git.html)) and that you have received a collaboration invitations from me (Itamar). Shoot me an email if you haven't received an invitation.
 
 Occasionally Itamar will post related stuff on twitter under the hashtag [__#ml4econ__](https://twitter.com/search?f=tweets&q=%23ml4econ&src=typd).
 
@@ -58,4 +58,4 @@ Occasionally Itamar will post related stuff on twitter under the hashtag [__#ml4
 
 Your feedback is important! Please feel free to share with us
 your comments, concerns and suggestions on the course in
-person or by [email](https://huji-ml4econ.github.io/course-spring2019/people.html).
+person or by [email](https://ml4econ.github.io/course-spring2019/people.html).
