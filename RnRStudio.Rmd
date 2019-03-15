@@ -38,7 +38,7 @@ Note that all IDEs, RStudio included depend on R being installed.
 
 * A [step-by-step guide](https://rforeval.com/courses/setup/) to get you started with R and RStudio.
 
-* Hadley Wickham's [R for Data Science](http://r4ds.had.co.nz/) will teach you how to augment R with the [tidyverse](http://www.tidyverse.org).  
+* Garrett Grolemund and Hadley Wickham's [R for Data Science](http://r4ds.had.co.nz/) will teach you how to augment R with the [tidyverse](http://www.tidyverse.org).  
 
 * [RStudio cheat sheets](https://www.rstudio.com/resources/cheatsheets/) where you can find, among others, an RStudio IDE and RMarkdown cheat sheets.  
 
