@@ -1,0 +1,140 @@
+---
+title: "Lasso prediction using mlr"
+author:
+  name: Itamar Caspi
+  affiliation: ml4econ @ HUJI 2019
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: 
+  html_document:
+    theme: flatly
+    highlight: haddock 
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message = FALSE,
+                      warning = FALSE)
+```
+
+## Introduction
+
+In what follows, we will use the "Boston Housing Data" to train and test machine learning models learned in the course. In particular, we will apply the lasso algorithm to predict Boston area median house values based on a set of area specific features.
+
+```{r remedy001}
+
+set.seed(1203)
+
+```
+ 
+## Load dependencies
+```{r}
+
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(mlr, glm)
+
+```
+
+## Read and clean data
+
+```{r remedy002}
+
+train     <- read.csv("data/train.csv")
+test      <- read.csv("data/test.csv")
+test$medv <- 0
+testID    <- test$ID
+train$ID  <- test$ID <- NULL
+
+
+```
+
+## Define the task
+
+```{r remedy003}
+
+trainTask <- makeRegrTask(data = train, target = "medv")
+testTask  <- makeRegrTask(data = test, target = "medv")
+
+
+```
+
+## Preprocessing
+
+Explain which preprocessing steps you take and why
+
+```{r remedy004}
+
+train$rad  <- as.factor(train$rad)
+test$rad   <- as.factor(test$rad)
+trainTask  <- createDummyFeatures(trainTask)
+testTask   <- createDummyFeatures(testTask)
+trainTask  <- normalizeFeatures(trainTask)
+testTask   <- normalizeFeatures(testTask)
+
+
+```
+
+## Define the learner
+
+Explain which algorithm you choose and why
+
+```{r remedy005}
+
+lrn <- makeLearner("regr.glmnet")
+
+```
+
+## Tune hyperparameter(s)
+
+Discuss the process of tuning your algorithm's hyper parameters
+
+```{r remedy006}
+
+ps <- makeParamSet(
+  makeNumericParam("s", lower = -5, upper = 2, trafo = function(x) 10^x)
+)
+ctrl  <- makeTuneControlRandom(maxit = 100L)
+rdesc <- makeResampleDesc("CV", iters = 10L)
+res   <- tuneParams(lrn, trainTask, rdesc, measures = mse, par.set = ps, control = ctrl)
+
+
+```
+
+## Fit the model
+
+
+```{r remedy007}
+
+lrn    <- setHyperPars(makeLearner("regr.glmnet"), par.vals = res$x)
+model  <- train(lrn, trainTask)
+
+
+```
+
+## Make predictions
+
+```{r remedy008}
+
+pred   <- predict(model, testTask)
+preds  <- pred$data$response
+
+
+```
+
+## Create submission file
+
+```{r remedy009}
+
+submission       <- data.frame(ID = testID)
+submission$medv  <- preds
+
+head(submission)
+```
+ 
+ 
+## Export prediction to a csv file
+```{r}
+write.csv(submission, "output/lassoSubmission.csv", row.names = FALSE)
+```
