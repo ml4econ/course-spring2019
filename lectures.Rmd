@@ -7,38 +7,160 @@ We will move at a pace dictated by class discussions. Please check this page oft
 
 | Week                  | Who                | Topic                                                                          |
 |:----------------------|:--------------------|:---------------------------------------------------------------------------------|
-| [**1**](#week-1)      | Itamar | Course Overview |
-| [**2**](#week-2)      | Itamar | Introduction to R, Rstudio, and git |
+| [**1**](#week-1)      | Itamar | Course Overview & Basic ML Concepts |
+| [**2**](#week-2)      | Itamar | Reproducibiliy and Version Control |
 | [**3**](#week-3)      | Ariel  | Regression and K Nearest Neighbors|
 | [**4**](#week-4)      | Ariel  | Classification |
 | [**5**](#week-5)      | Ariel  | Dimensionality Reduction |
 | [**6**](#week-6)      | Ariel  | Decision Trees and Random Forests| 
 | [**7**](#week-7)      | Ariel  | Unsupervised Learning|
-| [**8**](#week-8)      | Itamar | Prediction in Aid of Estimation I - Average Treatment Effects |
-| [**9**](#week-9)      | Itamar | Prediction in Aid of Estimation II - Heterogeneous Treatment Effects |
+| [**8**](#week-8)      | Itamar | Prediction in Aid of Estimation I - Lasso and Average Treatment Effects |
+| [**9**](#week-9)      | Itamar | Prediction in Aid of Estimation II - Trees and Heterogeneous Treatment Effects |
 | [**10**](#week-10)    | Itamar | Prediction Policy Problems |
 | [**11**](#week-11)    | Itamar | Text Analysis |
-| [**12**](#week-12)    | Itamar | The Economics of AI|
 
+
+*_Note_: Ariels lectures (weeks3-7) are only available on Moodle.
 
 ## Week 1
 
-Lecture notes: Course Overview (TBA).
+Notes: 
+- [Course Overview](https://raw.githack.com/ml4econ/notes-spring2019/master/01-overview/01-overview.html)  
+- [Basic ML Concepts](https://raw.githack.com/ml4econ/notes-spring2019/master/02-basic-ml-concepts/02-basic-ml-concepts.html)
 
-Papers:  
 
-  - Breiman, L. (2001). [Statistical modeling: The two cultures](https://projecteuclid.org/euclid.ss/1009213726). _Statistical Science_, 16(3), 199-231.
+#### Selected references
 
-  - Athey, S. (2018). [The impact of machine learning on economics](https://www.nber.org/chapters/c14009.pdf). In _The Economics of Artificial Intelligence: An Agenda_. University of Chicago Press.  
+Breiman, L. (2001). [Statistical modeling: The two cultures](https://projecteuclid.org/euclid.ss/1009213726). _Statistical Science_, 16(3), 199-231.
+
+Athey, S. (2018). [The impact of machine learning on economics](https://www.nber.org/chapters/c14009.pdf). In _The Economics of Artificial Intelligence: An Agenda_. University of Chicago Press.  
   
-  - Mullainathan, S., & Spiess, J. (2017). [Machine learning: an applied econometric approach](https://www.aeaweb.org/articles?id=10.1257/jep.31.2.87). _Journal of Economic Perspectives_, 31(2), 87-106.  
+Mullainathan, S., & Spiess, J. (2017). [Machine learning: an applied econometric approach](https://www.aeaweb.org/articles?id=10.1257/jep.31.2.87). _Journal of Economic Perspectives_, 31(2), 87-106.  
+
+## Week 2
+
+Notes: [Reproducibiliy and Version Control](https://raw.githack.com/ml4econ/notes-spring2019/master/03-reprod-vc/03-reprod-vc.html)
 
 
-[DataCamp courses](https://www.datacamp.com/enterprise/machine-learning-for-economists):
+[DataCamp in-class](https://www.datacamp.com/enterprise/machine-learning-for-economists):
 
- - Introduction to R  
- 
- - Working with the RStudio IDE (Part I)
+- Introduction to R  
+- Working with the RStudio IDE (Part I)
+
+
+#### Selected references
+
+R and Tidyverse
+
+- [R for Data Science (r4ds)](http://r4ds.had.co.nz/) by Garrett Grolemund and Hadley Wickham.
+- [Data wrangling and tidying with the “Tidyverse”](https://raw.githack.com/uo-ec607/lectures/master/05-tidyverse/05-tidyverse.html) by Grant McDerrmot.
+- [Getting used to R, RStudio, and R Markdown](https://rbasics.netlify.com/index.html) by Chester Ismay and Patrick C. Kennedy.
+- [Data Visualiztion: A practical introduction](https://socviz.co/) by Kieran Healy.
+
+Version Control
+
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/) by Jenny Bryan.
+- [Version Control with Git(Hub)](https://raw.githack.com/uo-ec607/lectures/master/02-git/02-Git.html) by Grant McDerrmot.
+- [Pro Git](https://git-scm.com/book/en/v2).
+
+## Week 8
+
+Notes: [ML in Aid of Estimation, Part I: Lasso and ATE ](https://raw.githack.com/ml4econ/notes-spring2019/master/08-lasso-ate/08-lasso-ate.html)
+
+#### Selected references
+
+Ahrens, A., Hansen, C. B., & Schaffer, M. E. (2019). lassopack: Model selection and prediction with regularized regression in Stata.
+
+Belloni, A., D. Chen, V. Chernozhukov, and C. Hansen. 2012. Sparse Models and Methods for Optimal Instruments With an Application to Eminent Domain. _Econometrica_ 80(6): 2369–2429. 
+
+Belloni, A., & Chernozhukov, V. (2013). Least squares after model selection in high-dimensional sparse models. _Bernoulli_, 19(2), 521–547.
+
+Belloni, A., Chernozhukov, V., & Hansen, C. (2013). Inference on treatment effects after selection among high-dimensional controls. _Review of Economic Studies_, 81(2), 608–650.
+
+Belloni, A., Chernozhukov, V., & Hansen, C. (2014). High-Dimensional Methods and Inference on Structural and Treatment Effects. _Journal of Economic Perspectives_, 28(2), 29–50.
+
+Chernozhukov, V., Hansen, C., & Spindler, M. (2015). Post-selection and post-regularization inference in linear models with many controls and instruments. _American Economic Review_, 105(5), 486–490.
+
+Chernozhukov, V., Hansen, C., & Spindler, M. (2016). hdm: High-Dimensional Metrics. _The R Journal_, 8(2), 185–199.
+
+Chernozhukov, V., Chetverikov, D., Demirer, M., Duflo, E., Hansen, C., & Newey, W. (2017). Double/debiased/Neyman machine learning of treatment effects. _American Economic Review_, 107(5), 261–265.
+
+Mullainathan, S. & Spiess, J., 2017. Machine Learning: An Applied Econometric Approach. _Journal of Economic Perspectives_, 31(2), pp.87–106.
+
+Van de Geer, S. A., & Bühlmann, P. (2009). On the conditions used to prove oracle results for the lasso. _Electronic Journal of Statistics_, 3, 1360–1392.
+
+Zhao, P., & Yu, B. (2006). On Model Selection Consistency of Lasso. _Journal of Machine Learning Research_, 7, 2541–2563.
+
+
+## Week 9
+
+Notes: [ML in Aid of Estimation, Part II: Trees and CATE ](https://raw.githack.com/ml4econ/notes-spring2019/master/09-trees-cate/09-trees-cate.html)
+
+#### Selected references
+
+Athey, S., & Imbens, G. (2016). Recursive partitioning for heterogeneous causal effects. _Proceedings of the National Academy of Sciences_, 113(27), 7353-7360.
+
+Athey, S., Imbens, G. W., Kong, Y., & Ramachandra, V. (2016). An Introduction to Recursive Partitioning for Heterogeneous Causal Effects Estimation Using `causalTree` package. 1–15.
+
+Davis, J.M. V & Heller, S.B., 2017. Using Causal Forests to Predict Treatment Heterogeneity : An Application to Summer Jobs. _American Economic Review: Papers & Proceedings_, 107(5), pp.546–550.
+
+Lundberg, I., 2017. Causal forests: A tutorial in high-dimensional causal inference. [https://scholar.princeton.edu/sites/default/files/bstewart/files/lundberg_methods_tutorial_reading_group_version.pdf](https://scholar.princeton.edu/sites/default/files/bstewart/files/lundberg_methods_tutorial_reading_group_version.pdf)
+
+Wager, S., & Athey, S. (2018). Estimation and Inference of Heterogeneous Treatment Effects using Random Forests. _Journal of the American Statistical Association_, 113(523), 1228–1242.
+
+
+
+## Week 10
+
+Notes: [Prediction Policy Problems ](https://raw.githack.com/ml4econ/notes-spring2019/master/10-pred-policy/10-pred-policy.html)
+
+#### Selected references
+
+Angwin, Julia, Jeff Larson, Surya Mattu, and Lauren Kirchner. 2016. “Machine Bias.” _ProPublica_, May 23. [https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing.](https://www.propublica.org/article/machine-bias-risk-assesments-in-criminal-sentencing.)
+
+Athey, S. (2018). The Impact of Machine Learning on Economics. 
+
+Athey, S., & Wager, S. (2018). Efficient Policy Learning.
+
+Kleinberg, B. J., Ludwig, J., Mullainathan, S., & Obermeyer, Z. (2015). Prediction Policy Problems. _American Economic Review: Papers & Proceedings_, 105(5), 491–495.
+
+Kleinberg, B. J., Ludwig, J., Mullainathan, S., & Rambachan, A. (2018). Algorithmic Fairness. _American Economic Review: Papers & Proceedings_, 108, 22–27.
+
+Kleinberg, J., Lakkaraju, H., Leskovec, J., Ludwig, J., & Mullainathan, S. (2018). Human Descisions and Machine Predictions. _Quarterly Journal of Economics_, 133(1), 237–293.
+
+Kleinberg, J., Mullainathan, S., & Raghavan, M. (2017). Inherent Trade-Offs in the Fair Determination of Risk Scores. _Proceedings of the 8th Conference on Innovation in Theoretical Computer Science_, 43, 1–23.
+
+Mullainathan, S., & Spiess, J. (2017). Machine Learning: An Applied Econometric Approach. _Journal of Economic Perspectives_, 31(2), 87–106.
+
+
+## Week 11
+
+Notes: [Text Mining](https://raw.githack.com/ml4econ/notes-spring2019/master/11-text-mining/11-text-mining.html)
+
+Hands-on: [Bank of Israel Minutes Text Analysis](https://raw.githack.com/ml4econ/notes-spring2019/master/11-hands-on-textmining/11-hands-on-textmining.html)
+
+#### Selected references
+
+Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). Latent Dirichlet allocation. _Journal of Machine Learning Research_, 3(Jan), 993-1022.
+
+Blei, D. M., & Lafferty, J. D. (2006, June). Dynamic topic models. In _Proceedings of the 23rd international conference on Machine learning_ (pp. 113-120). ACM.
+
+Gentzkow, M., Kelly, B.T. and Taddy, M. (forthcoming). _The Quarterly Journal of Economics_. 
+
+Hansen, S., McMahon, M., & Prat, A. (2017). Transparency and Deliberation Within the FOMC: A Computational Linguistics Approach. _The Quarterly Journal of Economics_, 133(2), 801–870.
+
+Lafferty, J. D., & Blei, D. M. (2006). Correlated topic models. In _Advances in neural information processing systems_ (pp. 147-154).
+
+Loughran, T. and McDonald, B., 2011. When is a liability not a liability? Textual analysis, dictionaries, and 10‐Ks. _The Journal of Finance_, 66(1), pp.35-65.
+
+Roberts, M.E., Stewart, B.M., Tingley, D., Lucas, C., Leder‐Luis, J., Gadarian, S.K., Albertson, B. and Rand, D.G., 2014. Structural topic models for open‐ended survey responses. _American Journal of Political Science_, 58(4), pp.1064-1082.
+
+Roberts, M.E., Stewart, B.M. and Tingley, D., 2014. stm: R package for structural topic models. _Journal of Statistical Software_, 10(2), pp.1-40.
+
+
+## Assignments
+
+[Kaggle Competition](https://raw.githack.com/ml4econ/notes-spring2019/master/a-kaggle/a-kaggle.html)
 
 
 
